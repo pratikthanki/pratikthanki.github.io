@@ -47,7 +47,6 @@
 				'images/bg06.jpg': 'center',
 				'images/bg07.jpg': 'center',
 				'images/bg08.jpg': 'center',
-				'images/bg09.jpg': 'center',
 
 			},
 
