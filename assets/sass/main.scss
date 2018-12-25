@@ -1,7 +1,3 @@
-@import 'libs/vars';
-@import 'libs/functions';
-@import 'libs/mixins';
-@import 'libs/skel';
 @import 'font-awesome.min.css';
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 
@@ -28,20 +24,10 @@
 
 // Base.
 
-	@import 'base/page';
 	@import 'base/bg';
 	@import 'base/typography';
-
-// Components.
-
-	@import 'components/section';
-	@import 'components/icon';
-	@import 'components/list';
-	@import 'components/form';
-	@import 'components/button';
 
 // Layout.
 
 	@import 'layout/header';
-	@import 'layout/signup-form';
 	@import 'layout/footer';
