@@ -27,9 +27,14 @@ module.exports = {
                 showLineNumbers: false,
                 feed: true,
                 feedTitle: `Pratik`,
-                navigation: [{
+                navigation: [
+                    {
                         title: `Blog`,
                         slug: `/blog`,
+                    },
+                    {
+                        title: `Tags`,
+                        slug: `/tags`,
                     },
                 ],
                 externalLinks: [{
