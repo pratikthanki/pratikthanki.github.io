@@ -7,24 +7,10 @@ on:
     branches: [ master ]
 
 jobs:
-  test:
-    name: Builds on ${{ matrix.node }} and ${{ matrix.os }}
-
-    runs-on: ${{ matrix.os }}
-
-    strategy:
-      matrix:
-        node: [12]
-        os: [ubuntu-latest]
-
+  build:
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - name: Use node ${{ matrix.node }}
-        uses: actions/setup-node@v1
+      - uses: enriikke/gatsby-gh-pages-action@v2
         with:
-          node-version: ${{ matrix.node }}
-          registry-url: https://registry.npmjs.org
-      - name: install
-        run: yarn install
-      - name: build
-        run: npm run build
+          access-token: ${{ secrets.ACCESS_TOKEN }}
