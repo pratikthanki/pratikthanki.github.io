@@ -7,9 +7,9 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 module.exports = {
     pathPrefix: "/pratikthanki.github.io",
     siteMetadata: {
-        siteTitle: `Pratik`,
-        siteTitleAlt: `Pratik`,
-        siteHeadline: `Pratik`,
+        siteTitle: `Pratik Thanki`,
+        siteTitleAlt: `Pratik Thanki`,
+        siteHeadline: `Pratik Thanki`,
         siteUrl: `https://google.com/`,
         siteDescription: `I write about stuff`,
         siteLanguage: `en`,
@@ -27,7 +27,7 @@ module.exports = {
                 formatString: `DD MMM YYYY`,
                 showLineNumbers: false,
                 feed: true,
-                feedTitle: `Pratik`,
+                feedTitle: `Pratik Thanki`,
                 navigation: [
                     {
                         title: `Blog`,
