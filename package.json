@@ -13,7 +13,7 @@
         "start": "npm run develop",
         "serve": "gatsby serve",
         "clean": "gatsby clean",
-        "deploy": "gatsby build --prefix-paths && gh-pages -d public -b master"
+        "deploy": "gatsby build --prefix-paths && gh-pages -d public -b master -u \"PratikThanki <pratikthanki1@gmail.com>\""
     },
     "dependencies": {
         "@lekoarts/gatsby-theme-minimal-blog": "^2.4.0",
