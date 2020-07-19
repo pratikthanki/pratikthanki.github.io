@@ -18,15 +18,18 @@ module.exports = {
     },
     plugins: [{
             resolve: `@lekoarts/gatsby-theme-minimal-blog`,
-            // See the theme's README for all available options
             options: {
+                basePath: `/`,
+                blogPath: `/blog`,
+                tagsPath: `/tags`,
+                mdx: true,
+                formatString: `DD MMM YYYY`,
+                showLineNumbers: false,
+                feed: true,
+                feedTitle: `Pratik`,
                 navigation: [{
                         title: `Blog`,
                         slug: `/blog`,
-                    },
-                    {
-                        title: `About`,
-                        slug: `/about`,
                     },
                 ],
                 externalLinks: [{
