@@ -9,12 +9,11 @@
     "scripts": {
         "build": "gatsby build",
         "develop": "gatsby develop",
-        "develop:cypress": "cross-env CYPRESS_SUPPORT=y yarn develop",
-        "build:cypress": "cross-env CYPRESS_SUPPORT=y yarn build",
-        "start": "gatsby develop",
+        "format": "prettier --write \"**/*.{js,jsx,json}\"",
+        "start": "npm run develop",
         "serve": "gatsby serve",
         "clean": "gatsby clean",
-        "deploy": "gatsby build --prefix-paths && gh-pages -d public -b master -u \"Pratik Thanki pratikthanki1@gmail.com\""
+        "deploy": "gatsby build --prefix-paths && gh-pages -d public -b master -u \"Pratik Thanki <pratikthanki1@gmail.com>\""
     },
     "dependencies": {
         "@lekoarts/gatsby-theme-minimal-blog": "^2.4.0",
