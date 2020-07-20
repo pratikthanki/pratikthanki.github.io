@@ -14,5 +14,4 @@ jobs:
         with:
           access-token: ${{ secrets.ACCESS_TOKEN }}
           deploy-branch: master
-          gatsby-args: --prefix-paths
           skip-publish: true
