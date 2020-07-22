@@ -7,7 +7,7 @@ tags:
   - Computation
 ---
 
-Something I have been working/ learning about the field of Computation the last few months. 
+So something I have been working on and learning about over the last few months is the field of Computation. 
 Its interesting to look at and think about how langauges are processed.
 
 I recently started learning about formal langauges, a set of pre-defined rules that allow input strings to be manipulated 
@@ -24,6 +24,14 @@ free grammar, which consists of rules (also called productions). It is more powe
 
 An important application of context-free grammars occurs in the specification and compilation of programming languages (i.e compilers).
 
+For the maths reader(s) the formal definition of a context-free grammar is a 4-tuple `(V, Σ, R, S)` where;
+  
+  1. `V` is a finite set called the variables,
+  2. `Σ` is a finite set, disjoint from V , called the terminals,
+  3. `R` is a finite set of rules, with each rule being a variable and a
+  string of variables and terminals, and 
+  4. `S ∈ V` is the start variable.
+
 The following is an example of a context-free grammar, which we will call `G`
 
 ```
@@ -34,7 +42,7 @@ B → #
 
 Each rule appears as a line in the grammar, comprising a symbol and a string separated by an arrow (`symbol → string`).
 - The symbol is called a **variable**.
-- The string consists of variables and other symbols called **terminals••.
+- The string consists of variables and other symbols called **terminals**.
 
 Things to note:
 - variables are uppercase letters
@@ -55,14 +63,6 @@ Take the string `00#11`. The sequence of substitutions to obtain the string is c
 Any string of variables and/or terminals derived from the start variable is called a **sentential form**.
 
 This is a great [tool](https://web.stanford.edu/class/archive/cs/cs103/cs103.1156/tools/cfg/) that demonstrates this.
-
-The formal definition of a context-free grammar is a 4-tuple `(V, Σ, R, S)` where;
-  
-  1. `V` is a finite set called the variables,
-  2. `Σ` is a finite set, disjoint from V , called the terminals,
-  3. `R` is a finite set of rules, with each rule being a variable and a
-  string of variables and terminals, and 
-  4. `S ∈ V` is the start variable.
 
 For those curious, context-free languages are closed under; union, concatenation, and Kleene star. I won't prove those in 
 this post but if you're interested drop me a message! 📮
