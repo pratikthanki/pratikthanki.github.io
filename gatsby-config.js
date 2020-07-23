@@ -13,7 +13,7 @@ module.exports = {
         siteUrl: `https://google.com/`,
         siteDescription: `I write about stuff`,
         siteLanguage: `en`,
-        siteImage: `/banner.jpg`,
+        siteImage: `/banner.jpeg`,
         author: `@pratik_thanki`
     },
     plugins: [
