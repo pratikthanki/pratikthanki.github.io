@@ -161,7 +161,6 @@ private void cykRecogniser(ContextFreeGrammar cfg, Word word) {
             cykTable.get(i).add(new ArrayList<>());
         }
     }
-
 }
 ```
 
@@ -169,29 +168,29 @@ private void cykRecogniser(ContextFreeGrammar cfg, Word word) {
 We will create convenient helper method to find all rules based any a combination or variables from two different cells in the CYK table;
 
 ```Java
-    /* Return a list of rules based on the language and the word */
-    private List<Rule> getRulesForWord(ContextFreeGrammar cfg, Word word) {
-        List<Rule> rules = new ArrayList<>();
-        for (Rule rule : cfg.getRules()) {
-            if (rule.getExpansion().equals(word))
-                rules.add(rule);
-        }
-        return rules;
+/* Return a list of rules based on the language and the word */
+private List<Rule> getRulesForWord(ContextFreeGrammar cfg, Word word) {
+    List<Rule> rules = new ArrayList<>();
+    for (Rule rule : cfg.getRules()) {
+        if (rule.getExpansion().equals(word))
+            rules.add(rule);
     }
+    return rules;
+}
 ```
 
 
 Now, we should start by finding all variables for the terminals in the string, this can be added under what we already have for our `cykRecogniser`;
 
 ```Java
-    for (int i = 0; i < word.length(); i++) {
-        Word symInWord = new Word(String.valueOf(word.get(i)));
-        List<Rule> rules = getRulesForWord(cfg, symInWord);
+for (int i = 0; i < word.length(); i++) {
+    Word symInWord = new Word(String.valueOf(word.get(i)));
+    List<Rule> rules = getRulesForWord(cfg, symInWord);
 
-        for (Rule validRule : rules) {
-            cykTable.get(0).get(i).add(new BackPointer(validRule));
-        }
+    for (Rule validRule : rules) {
+        cykTable.get(0).get(i).add(new BackPointer(validRule));
     }
+}
 ```
 
 
@@ -202,58 +201,57 @@ For every loop of the word we will:
 - create new nodes at every point up the table
 
 ```Java
-    for (int i = 1; i < word.length(); i++) {
+for (int i = 1; i < word.length(); i++) {
 
-        for (int k = 0; k < word.length() - i; k++) {
+    for (int k = 0; k < word.length() - i; k++) {
 
-            for (int l = 0; l < i; l++) {
+        for (int l = 0; l < i; l++) {
 
-                // set of indexes to access 3D array
-                int X1 = i - l - 1;
-                int Y1 = k;
-                int X2 = l;
-                int Y2 = i - l + k;
+            // set of indexes to access 3D array
+            int X1 = i - l - 1;
+            int Y1 = k;
+            int X2 = l;
+            int Y2 = i - l + k;
 
-                List<BackPointer> currentVariable = cykTable.get(X1).get(Y1);
-                List<BackPointer> nextVariable = cykTable.get(X2).get(Y2);
+            List<BackPointer> currentVariable = cykTable.get(X1).get(Y1);
+            List<BackPointer> nextVariable = cykTable.get(X2).get(Y2);
 
-                for (int c = 0; c < currentVariable.size(); c++) {
+            for (int c = 0; c < currentVariable.size(); c++) {
 
-                    for (int n = 0; n < nextVariable.size(); n++) {
+                for (int n = 0; n < nextVariable.size(); n++) {
 
-                        // Combine the two variables in this iteration so we can check if 
-                        // that word is on the right side of any production.
-                        Word possibleWord = new Word(
-                            currentVariable.get(c).getRule().getVariable(), 
-                            nextVariable.get(n).getRule().getVariable()
-                        );
+                    // Combine the two variables in this iteration so we can check if 
+                    // that word is on the right side of any production.
+                    Word possibleWord = new Word(
+                        currentVariable.get(c).getRule().getVariable(), 
+                        nextVariable.get(n).getRule().getVariable()
+                    );
 
-                        List<Rule> rules = getRulesForWord(cfg, possibleWord);
+                    List<Rule> rules = getRulesForWord(cfg, possibleWord);
 
-                        for (Rule validRule : rules) {
-                            // Create new BackPointer from all productions (rules) found 
-                            BackPointer bp = new BackPointer(validRule);
+                    for (Rule validRule : rules) {
+                        // Create new BackPointer from all productions (rules) found 
+                        BackPointer bp = new BackPointer(validRule);
 
-                            // Based on our current position we retrieve the cell from the CYK table
-                            BackPointer bpCurrent = cykTable.get(X1).get(Y1).get(c);
-                            BackPointer bpNext = cykTable.get(X2).get(Y2).get(n);
+                        // Based on our current position we retrieve the cell from the CYK table
+                        BackPointer bpCurrent = cykTable.get(X1).get(Y1).get(c);
+                        BackPointer bpNext = cykTable.get(X2).get(Y2).get(n);
 
-                            // Add child rules if comination of symbols produce a Variable
-                            bp.addChildRule(bpCurrent.getChildRules());
-                            bp.addChildRule(bpNext.getChildRules());
+                        // Add child rules if comination of symbols produce a Variable
+                        bp.addChildRule(bpCurrent.getChildRules());
+                        bp.addChildRule(bpNext.getChildRules());
 
-                            // Add list of nodes from both symbols that would have got to that point of the CYK table
-                            bp.addChildNode(Arrays.asList(bpCurrent.getParseTreeNode(), bpNext.getParseTreeNode()));
+                        // Add list of nodes from both symbols that would have got to that point of the CYK table
+                        bp.addChildNode(Arrays.asList(bpCurrent.getParseTreeNode(), bpNext.getParseTreeNode()));
 
-                            // Append BackPointer object to the cell of the iteration
-                            cykTable.get(i).get(k).add(bp);
-                        }
+                        // Append BackPointer object to the cell of the iteration
+                        cykTable.get(i).get(k).add(bp);
                     }
                 }
             }
         }
     }
-
+}
 ```
 
 You maybe thinking, "this is cool, but even I can do this without a fancy kyc algorithm or whatever its called?"
