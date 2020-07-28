@@ -3,6 +3,7 @@
 <url> <loc>https://google.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://google.com/blog</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://google.com/tags</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://google.com/turing-machines</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://google.com/to-vertical-or-not</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://google.com/constructing-parse-trees</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://google.com/cooke-younger-kasami</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
