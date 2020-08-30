@@ -38,7 +38,8 @@ module.exports = {
                         slug: `/tags`,
                     },
                 ],
-                externalLinks: [{
+                externalLinks: [
+                    {
                         name: `Twitter`,
                         url: `https://twitter.com/Pratik_Thanki/`,
                     },
