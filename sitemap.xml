@@ -3,6 +3,7 @@
 <url> <loc>https://google.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://google.com/blog</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://google.com/tags</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://google.com/channels-example</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://google.com/system-threading-channels</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://google.com/dancing-links</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://google.com/turing-machines</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
