@@ -60,6 +60,15 @@
   Link: </component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-tags-query-tsx-13ad9403dfd310432fa5.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/tags/page-data.json>; rel=preload; as=fetch; crossorigin
+/relational-algebra
+  Link: </webpack-runtime-94c33d613f08f8a9df24.js>; rel=preload; as=script
+  Link: </framework-58f863d6aa18c11a521f.js>; rel=preload; as=script
+  Link: </app-d62e09c5c3da9f22fba0.js>; rel=preload; as=script
+  Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
+  Link: </ec186dd43493401e0c8852948f3df73699119dfe-1c8e575142d9fd2a5edd.js>; rel=preload; as=script
+  Link: </component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-post-query-tsx-e469e8182f5890821f87.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/relational-algebra/page-data.json>; rel=preload; as=fetch; crossorigin
 /channels-example
   Link: </webpack-runtime-94c33d613f08f8a9df24.js>; rel=preload; as=script
   Link: </framework-58f863d6aa18c11a521f.js>; rel=preload; as=script
@@ -168,6 +177,15 @@
   Link: </component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-tag-query-tsx-4512bcf3ac1954e71043.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/tags/home-setup/page-data.json>; rel=preload; as=fetch; crossorigin
+/tags/relational-algebra
+  Link: </webpack-runtime-94c33d613f08f8a9df24.js>; rel=preload; as=script
+  Link: </framework-58f863d6aa18c11a521f.js>; rel=preload; as=script
+  Link: </app-d62e09c5c3da9f22fba0.js>; rel=preload; as=script
+  Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
+  Link: </ec186dd43493401e0c8852948f3df73699119dfe-1c8e575142d9fd2a5edd.js>; rel=preload; as=script
+  Link: </component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-tag-query-tsx-4512bcf3ac1954e71043.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/tags/relational-algebra/page-data.json>; rel=preload; as=fetch; crossorigin
 /tags/theory-of-computation
   Link: </webpack-runtime-94c33d613f08f8a9df24.js>; rel=preload; as=script
   Link: </framework-58f863d6aa18c11a521f.js>; rel=preload; as=script
