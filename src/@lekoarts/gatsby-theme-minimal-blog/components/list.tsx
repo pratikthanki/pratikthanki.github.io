@@ -11,7 +11,7 @@ const List = ({ children }: ListProps) => (
     sx={{
       mb: [5, 5, 6],
       ul: { margin: 0, padding: 0 },
-      li: { listStyle: `none`, mb: 5 },
+      li: { listStyle: `none`, mb: 2 },
       a: { variant: `links.listItem` },
     }}
   >
