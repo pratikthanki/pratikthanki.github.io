@@ -11,7 +11,7 @@ module.exports = {
         siteTitleAlt: `Pratik Thanki`,
         siteHeadline: `Pratik Thanki`,
         siteUrl: `https://google.com/`,
-        siteDescription: `Data, tech and the Cowboys.`,
+        siteDescription: `Data, Tech and the Cowboys.`,
         siteLanguage: `en`,
         siteImage: `/banner.jpg`,
         author: `@pratik_thanki`

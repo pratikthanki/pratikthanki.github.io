@@ -11,6 +11,12 @@ const code = {
     padding: (t: any) => `calc(${t.space[2]} + 10px) !important`,
     backgroundColor: tint(`primary`, 0.7),
   },
+  "section": {
+    marginBottom: `3rem`
+  },
+  "p": {
+    textAlign: `justify`
+  },
   ".prism-code": {
     fontSize: [1, 1, 2],
     padding: 3,

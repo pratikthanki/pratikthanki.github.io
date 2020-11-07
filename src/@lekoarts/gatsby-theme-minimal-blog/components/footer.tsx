@@ -18,6 +18,7 @@ const Footer = () => {
         },
         flexDirection: [`column`, `column`, `row`],
         variant: `dividers.top`,
+        margin: `auto`
       }}
     >
       <div>
