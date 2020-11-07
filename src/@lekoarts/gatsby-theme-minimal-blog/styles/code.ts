@@ -15,7 +15,8 @@ const code = {
     marginBottom: `3rem`
   },
   "p": {
-    textAlign: `justify`
+    textAlign: `justify`,
+    padding: `10px`
   },
   ".prism-code": {
     fontSize: [1, 1, 2],
