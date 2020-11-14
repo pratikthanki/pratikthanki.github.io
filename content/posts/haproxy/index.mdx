@@ -6,7 +6,7 @@ tags:
   - Load Balancer
 ---
 
-Working with web services in a microservices architecture is so cool and part of that something I have learned adn read about 
+Working with web services in a microservices architecture is so cool and part of that something I have learned and read about 
 is load balancing and HAProxy.
 
 HAProxy, which stands for High Availability Proxy, is a popular open source software TCP/HTTP Load Balancer and proxying solution. 
@@ -43,7 +43,7 @@ A simple example with **no load balancer**:
 The client connects directly with the web server, with no load balancer if your web server goes down the entire service is 
 compromised.
 
-The simplest form of load balancing is **layer 4 load balancing*  . The clients request is forwarded by the load balancer to the 
+The simplest form of load balancing is **layer 4 load balancing**  . The clients request is forwarded by the load balancer to the 
 appropriate backend.
 
 ![layer 4 load balancer](./layer4-load-balancer.png)
@@ -53,7 +53,7 @@ Load balancing in this way will forward requests based on IP range and port.
 Layer 4 load balancing uses information defined at the networking **transport layer** for deciding how to distribute worload 
 across a group of servers.
 
-Building on this, a more complex way of load balancing is to use layer 7 (or application layer) load balancing. 
+Building on this, a more complex way of load balancing is application layer or **layer 7 load balancing**. 
 
 Based on the client request, the load balancer will direct messages to the respective backend web-servers.
 
