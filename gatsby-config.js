@@ -50,11 +50,7 @@ module.exports = {
                     {
                         name: `LinkedIn`,
                         url: `https://www.linkedin.com/in/pratikthanki9/`,
-                    },
-                    {
-                        name: `Email`,
-                        url: `mailto:pratikthanki1@gamil.com`,
-                    },
+                    }
                 ],
             },
         },
