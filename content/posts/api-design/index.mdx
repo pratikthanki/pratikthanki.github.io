@@ -7,9 +7,7 @@ tags:
 ---
 
 Designing APIs can be a lot of fun! I'm excited to cover aspects of REST API design inspired by the API Azure Design 
-guidelines.
-
-First, a summary of API design and the consideration I made even before I wrote any code. 
+guidelines. from REST, HTTP Status Codes and Versioning.
 
 Most modern web applications expose APIs that a client can use to interact with the application in someway.
 
@@ -23,7 +21,7 @@ importantly all functionality should be discoverable so that client applications
 
 Brief background on REST. Proposed in 2000 by Roy Fielding, Representational State Transfer (REST) as an 
 architectural approach to designing web services. REST is an architectural style for providing standards between 
-computer systems on the web. The cool thing about is REST is that it is independent of any underlying protocol 
+computer systems on the web. The cool thing about REST, it is independent of any underlying protocol 
 and is not necessarily tied to HTTP. 
 
 REST uses open standards and does not couple the implementation of the API or the client application to any 
@@ -160,7 +158,7 @@ Versioning can be implemented in several ways, most common is **URI Versioning**
 
 A change to an existing or addition of a resource to a Web API can include the version numer in the URL.
 
-If we have a maps API with the resouce `/stations/` which returns:
+If we have a maps API with the resource `/stations` which returns:
 
 ```json
 
@@ -178,7 +176,7 @@ If we have a maps API with the resouce `/stations/` which returns:
 ```
 
 If we make changes to this endpoint such that the address is more specific/broken down and additional fields are added, 
-a change to the resouce would be represented as `/v2/stations/`:
+a change to the resource would be represented as `/v2/stations`:
 
 ```json
 
