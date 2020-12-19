@@ -16,8 +16,7 @@ module.exports = {
         siteImage: `/banner.jpg`,
         author: `@pratik_thanki`
     },
-    plugins: [
-        {
+    plugins: [{
             resolve: `@lekoarts/gatsby-theme-minimal-blog`,
             options: {
                 basePath: `/`,
@@ -28,8 +27,7 @@ module.exports = {
                 showLineNumbers: false,
                 feed: true,
                 feedTitle: `Pratik Thanki`,
-                navigation: [
-                    {
+                navigation: [{
                         title: `Blog`,
                         slug: `/blog`,
                     },
@@ -38,7 +36,10 @@ module.exports = {
                         slug: `/tags`,
                     },
                 ],
-                externalLinks: [
+                externalLinks: [{
+                        name: `FourthDown API`,
+                        url: `https://fourthdown.azurewebsites.net/`
+                    },
                     {
                         name: `Twitter`,
                         url: `https://twitter.com/Pratik_Thanki/`,
