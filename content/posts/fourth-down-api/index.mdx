@@ -83,12 +83,16 @@ services:
   api:
     image: pratikthanki9/fourthdown-api:latest
     container_name: fourthdown-api
+    environment:
+      USESAMPLEAUTH: "true"
     ports:
     - 5000:5000
 
 ```
 
-And then `docker-compose up -d` from where your compose file is. You can then query the api with: `http://localhost:5000`
+And then `docker-compose up -d` from where your compose file is. 
+
+You can then query the api at `http://localhost:5000` using the header `{ X-API-KEY: api-key }`
 
 Shoutout to the guys of the R package [nflfastR](https://github.com/mrcaseb/nflfastR) 
 ([Ben Baldwin](https://twitter.com/benbbaldwin) and [Sebastian Carl](https://twitter.com/mrcaseb)) on 
