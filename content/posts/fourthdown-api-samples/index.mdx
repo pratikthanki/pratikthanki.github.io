@@ -6,7 +6,7 @@ tags:
   - API
 ---
 
-Further to my previous post introducing the [FourthDown API](../fourth-down-api/index.mdx), here I have detailed 
+Further to my previous post introducing the [FourthDown API](../fourth-down-api), here I have detailed 
 code snippets from various languages to get started.
 
 Heads-up, you can see more details about all the endpoints and how to create an api key on the 
@@ -200,6 +200,37 @@ dispatch_semaphore_wait(sema, DISPATCH_TIME_FOREVER);
 
 ```
 
+## Python 
+
+```py
+
+import requests
+
+url = "https://fourthdown.azurewebsites.net/api/game/scoringsummaries?Week=1&Team=NE&Season=2017"
+
+headers = {
+  'x-api-key': '-my-api-key-'
+}
+
+response = requests.request("GET", url, headers=headers)
+
+print(response.text)
+
+```
+
+## R
+
+```R
+
+library(httr)
+
+URL <- "https://fourthdown.azurewebsites.net/api/game/scoringsummaries?Week=1&Team=NE&Season=2017"
+KEY <- '-my-api-key-'
+
+r <- GET(URL, add_headers("x-api-key" = KEY))
+
+```
+
 ## cURL
 
 ```shell
@@ -209,7 +240,7 @@ curl --location --request GET 'https://fourthdown.azurewebsites.net/api/game/sco
 
 ```
 
-## PowerShell 
+## PowerShell
 
 ```ps1
 
