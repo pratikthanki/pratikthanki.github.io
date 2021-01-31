@@ -29,7 +29,6 @@ namespace HelloWorldApplication
       client.Timeout = -1;
 
       var request = new RestRequest(Method.GET);
-      request.AddHeader("x-api-key", "-my-api-key-");
 
       IRestResponse response = client.Execute(request);
 
@@ -65,7 +64,6 @@ func main() {
     fmt.Println(err)
     return
   }
-  req.Header.Add("x-api-key", "-my-api-key-")
 
   res, err := client.Do(req)
   if err != nil {
@@ -89,7 +87,6 @@ func main() {
 ```js
 
 var myHeaders = new Headers();
-myHeaders.append("x-api-key", "-my-api-key-");
 
 var requestOptions = {
   method: 'GET',
@@ -115,9 +112,7 @@ var options = {
   'method': 'GET',
   'hostname': 'fourthdown.azurewebsites.net',
   'path': '/api/game/scoringsummaries?Week=1&Team=NE&Season=2017',
-  'headers': {
-    'x-api-key': '-my-api-key-'
-  },
+  'headers': { },
   'maxRedirects': 20
 };
 
@@ -155,7 +150,6 @@ https = Net::HTTP.new(url.host, url.port)
 https.use_ssl = true
 
 request = Net::HTTP::Get.new(url)
-request["x-api-key"] = "-my-api-key-"
 
 response = https.request(request)
 puts response.read_body
@@ -173,9 +167,6 @@ dispatch_semaphore_t sema = dispatch_semaphore_create(0);
 NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"https://fourthdown.azurewebsites.net/api/game/scoringsummaries?Week=1&Team=NE&Season=2017"]
   cachePolicy:NSURLRequestUseProtocolCachePolicy
   timeoutInterval:10.0];
-NSDictionary *headers = @{
-  @"x-api-key": @"-my-api-key-"
-};
 
 [request setAllHTTPHeaderFields:headers];
 
@@ -208,9 +199,7 @@ import requests
 
 url = "https://fourthdown.azurewebsites.net/api/game/scoringsummaries?Week=1&Team=NE&Season=2017"
 
-headers = {
-  'x-api-key': '-my-api-key-'
-}
+headers = { }
 
 response = requests.request("GET", url, headers=headers)
 
@@ -225,7 +214,6 @@ print(response.text)
 library(httr)
 
 URL <- "https://fourthdown.azurewebsites.net/api/game/scoringsummaries?Week=1&Team=NE&Season=2017"
-KEY <- '-my-api-key-'
 
 r <- GET(URL, add_headers("x-api-key" = KEY))
 
@@ -235,8 +223,7 @@ r <- GET(URL, add_headers("x-api-key" = KEY))
 
 ```shell
 
-curl --location --request GET 'https://fourthdown.azurewebsites.net/api/game/scoringsummaries?Week=1&Team=NE&Season=2017' \
---header 'x-api-key: -my-api-key-'
+curl --location --request GET 'https://fourthdown.azurewebsites.net/api/game/scoringsummaries?Week=1&Team=NE&Season=2017' 
 
 ```
 
@@ -245,7 +232,6 @@ curl --location --request GET 'https://fourthdown.azurewebsites.net/api/game/sco
 ```ps1
 
 $headers = New-Object "System.Collections.Generic.Dictionary[[String],[String]]"
-$headers.Add("x-api-key", "-my-api-key-")
 
 $response = Invoke-RestMethod 'https://fourthdown.azurewebsites.net/api/game/scoringsummaries?Week=1&Team=NE&Season=2017' -Method 'GET' -Headers $headers -Body $body
 $response | ConvertTo-Json
@@ -256,8 +242,7 @@ $response | ConvertTo-Json
 
 ```shell
 
-http --follow --timeout 3600 GET 'https://fourthdown.azurewebsites.net/api/game/scoringsummaries?Week=1&Team=NE&Season=2017' \
- x-api-key:'-my-api-key-'
+http --follow --timeout 3600 GET 'https://fourthdown.azurewebsites.net/api/game/scoringsummaries?Week=1&Team=NE&Season=2017'
 
 ```
 
