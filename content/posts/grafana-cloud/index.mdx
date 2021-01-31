@@ -16,15 +16,15 @@ how I use Grafana Cloud to proactively monitor performance, the powerful capabil
 
 Application observability is built on three key components:
 
-- Logging: information about events happening in the system, this can vary from instances of throwing out of memory 
+- **Logging**: information about events happening in the system, this can vary from instances of throwing out of memory 
 exceptions and app configuration on startup not reflecting expected values. Useful for getting a complete understanding 
 of what has occurred in the system.
 
-- Tracing: information about end-to-end requests received by the system. A trace is similar to a stack trace spanning 
+- **Tracing**: information about end-to-end requests received by the system. A trace is similar to a stack trace spanning 
 multiple applications. Traces are a good starting point in identifying potential bottlenecks in application performance. 
 Like asynchronous web requests, serialization or data processing.
 
-- Metrics: real-time information of how the system is performing. KPIs can be defined to build alerts, allowing for 
+- **Metrics**: real-time information of how the system is performing. KPIs can be defined to build alerts, allowing for 
 proactive steps when performance degrades. Compared to logs and traces, the amount of data collected using metrics 
 remains constant as the system load increases. Application problems are realized through alerting when metrics exceed 
 some threshold. For example, CPU usage being higher than before, increase in 5xx requests or average response times.
@@ -69,7 +69,13 @@ _"If you measure all four golden signals and page a human when one signal is pro
 Leveraging tracing allowed me to find and remove bottlenecks that impacted end-user performance. In this example, 
 multiple HTTP web requests can be performed asynchronously through `System.Threading.Tasks`:
 
+Request performance was not at the level I was aiming for. Upon examining request traces I realized the synchronous manner of 
+web requests:
+
 ![tracing before](./tracing-before.jpeg)
+
+Executing requests through `Task.WhenAll` will complete when all of the supplied tasks have completed. This significantly 
+improved response times and resulted in the following trace:
 
 ![tracing after](./tracing-after.jpeg)
 
