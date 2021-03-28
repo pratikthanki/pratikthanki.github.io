@@ -3,6 +3,7 @@
 <url> <loc>https://google.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://google.com/blog</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://google.com/tags</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://google.com/pull-requests</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://google.com/value-iteration-algorithm</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://google.com/grafana-cloud</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://google.com/lambda-calculus-beta-reduction</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -25,6 +26,7 @@
 <url> <loc>https://google.com/tags/ai</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://google.com/tags/api</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://google.com/tags/algorithms</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://google.com/tags/engineering-practices</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://google.com/tags/functional-programming</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://google.com/tags/hello-world</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://google.com/tags/home-setup</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
