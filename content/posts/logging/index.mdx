@@ -17,7 +17,7 @@ and exceptions are logged then the second log line provides more context. Huntin
 issues becomes more difficult if it actually isn't clear the HTTP request is successful in this 
 example.
 
-```csharp
+```cs
 
 _logger.LogInformation("Sending API request");
 await _restClient.SendAsync();
@@ -35,7 +35,7 @@ Another improvement to logging is separating what is going often, depicted in a 
 format with the technical details. The second aspect of this is contextual detail important for 
 debugging technical issues.
 
-```csharp
+```cs
 
 await _restClient.SendAsync();
 _logger.LogInformation("Sent request to {url} to retrieve list of contacts", url);
@@ -75,7 +75,7 @@ authorization resulting in a `WARNING` whilst some other unforseen/ unaccounted 
 should be seen as a `ERROR`. And the default log level when the API request is successful is 
 `INFORMATION`.
 
-```csharp
+```cs
 
 try 
 {
