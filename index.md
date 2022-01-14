@@ -1,6 +1,4 @@
 
-## Hello, I'm Pratik 👋
-
 Thanks for stopping by - I'm a curious problem solver working in asset management, 
 building APIs and managing tech infrastructure used by teams around the globe to make 
 real-time decisions. 🌎 I work in C#, run everything in Kubernetes on the Cloud ☁️ and 
@@ -10,13 +8,14 @@ Prior to that I was building distributed systems in the energy trading sector, w
 with some of the smartest and talented Software Engineers and Product Managers 🖥️ I got 
 into tech and to where I am now through my experience at a tech start-up working with 
 the biggest sports teams and organisations around the world; from the NBA, NFL, Premier 
-League and NCAA Football 🏀🏈⚽🏃 and even astronauts 🧑‍🚀 I presented a Case Study at the 
-Gartner Data and Analytics Summit London - "What Tim Peake has for Breakfast and other 
-Stories from the Frontier of Human Performance Analytics."
+League and NCAA Football 🏀🏈⚽🏃 and even astronauts 🧑‍🚀
+
+I presented a Case Study at the Gartner Data and Analytics Summit London - "What Tim 
+Peake has for Breakfast and other Stories from the Frontier of Human Performance Analytics."
 
 I enjoy learning 🤟 Outside of work I spend most of my time exploring new tools, 
 technologies and frameworks. I predominantly write in C#, T-SQL and can't imagine not 
-using Docker 🐳 and Kubernetes ☸
+using Docker 🐳 and Kubernetes ☸ I'm currently learning Go and gRPC ⚡
 
 Other than writing code, I have a passion for travelling! My girlfriend and I are 
 always booking last-minute flights away. ✈️ I also follow (and love) the NFL and spend 
@@ -34,5 +33,8 @@ developed in ASP.NET Core
 yards with Neural Nets in C#
 - [Connect 4](https://github.com/pratikthanki/Connect4): Command line in C#
 - [pysport/kloppy](https://github.com/pysport/kloppy/): Open source contributor
+
+If you'd like to get in touch, DM me on [twitter](https://twitter.com/pratik_thanki) 
+or drop me a message on [linkedin](https://www.linkedin.com/in/-pratikthanki/).
 
 <img src='./assets/pratik.jpg' alt="pratik" height="300" style="border-radius:10%" />
