@@ -5,6 +5,8 @@ make real-time decisions. 🌎 I work in C#, run everything in Docker containers
 and deploy/manage architecture on Kubernetes ☸ and always look to find ways of 
 automating anything and everything.
 
+* * *
+
 Prior to that I was building distributed systems in the energy trading sector, working 
 with some of the smartest and talented Software Engineers and Product Managers 🖥️ I got 
 into tech and to where I am now through my experience at a tech start-up working with 
@@ -16,12 +18,16 @@ Stories from the Frontier of Human Performance Analytics."
 I enjoy learning 🤟 Outside of work I spend most of my time exploring new tools, 
 technologies and frameworks. I am currently learning Go and gRPC ⚡
 
+* * *
+
 Other than writing code, I have a passion for travelling! My girlfriend and I are 
 always booking last-minute flights away. ✈️ I also follow (and love) the NFL and spend 
 my Sunday's supporting the Dallas Cowboys! ✭
 
 I like to write about various aspects of technology and computer science, read my 
-posts [here](./posts.html).
+posts [**here**](./posts.html).
+
+* * *
 
 I like hacking on side projects in my spare time:
 
@@ -33,7 +39,7 @@ yards with Neural Nets in C#
 - [Connect 4](https://github.com/pratikthanki/Connect4): Command line in C#
 - [pysport/kloppy](https://github.com/pysport/kloppy/): Open source contributor
 
+* * *
+
 If you'd like to get in touch, DM me on [twitter](https://twitter.com/pratik_thanki) 
 or drop me a message on [linkedin](https://www.linkedin.com/in/-pratikthanki/).
-
-<img src='./assets/pratik.jpg' alt="pratik" height="300" style="border-radius:10%" />
