@@ -5,10 +5,10 @@ layout: default
 <h1>{{ page.title }}</h1>
 <small>{{ page.date | date: "%-d %B %Y" }}</small>
 
+<li><a href="./posts.html"> back to posts</a></li>
+
 {{content}}
 
 {% if page.tags %}
   <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
 {% endif %}
-
-<p class="view">Pratik Thanki ✌️</p>

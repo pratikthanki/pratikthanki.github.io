@@ -1,6 +1,8 @@
 
 ## Posts
 
+[back to home](./index.md)
+
 17 Oct 2021 — [logging](./posts/logging/index.html)
 
 04 Sep 2021 — [garbage collection](./posts/garbage-collection/index.html)
