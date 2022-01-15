@@ -1,5 +1,6 @@
 ---
 title: System Threading Channels
+layout: post
 date: 2020-08-31
 description: 
 tags:
@@ -56,4 +57,4 @@ with anyone keen on steaming data-architectures (of course!) 😂
 I <s>am keen to</s> will follow-up this post with a practical example that demonstrates the performance impact of Channels! For more details and 
 performance differences check out [Stephen Toub's post](https://devblogs.microsoft.com/dotnet/an-introduction-to-system-threading-channels/).
 
-Pratik Thanki ✌️
+

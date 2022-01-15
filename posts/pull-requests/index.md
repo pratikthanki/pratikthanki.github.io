@@ -1,5 +1,6 @@
 ---
 title: Pull Requests
+layout: post
 date: 2021-03-28
 description: Getting the most out of code reviews
 tags:
@@ -75,4 +76,4 @@ suggestion you're making. Back-and-forth will inevitably happen, and getting you
 If you found this interesting I would encourage you to have a look at Google's [eng-practices](https://github.com/google/eng-practices) 
 on GitHub for more information and the [Goole Style Guide](https://google.github.io/styleguide/).
 
-Pratik Thanki ✌️
+

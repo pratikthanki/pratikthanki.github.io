@@ -1,5 +1,6 @@
 ---
 title: FourthDown API Samples
+layout: post
 date: 2020-12-23
 description: Code samples for the play-by-play API.
 tags:
@@ -246,4 +247,4 @@ http --follow --timeout 3600 GET 'https://fourthdown.azurewebsites.net/api/game/
 
 ```
 
-Pratik Thanki ✌️
+

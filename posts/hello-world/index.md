@@ -1,5 +1,6 @@
 ---
 title: Hello World
+layout: post
 date: 2020-07-18
 description: Hi!
 tags:
@@ -21,4 +22,4 @@ Maybe make your own static pages with [jekyll](https://jekyllrb.com/). Too many 
 
 I've opted for the [gatsby-starter-minimal-blog](https://github.com/LekoArts/gatsby-starter-minimal-blog) and found it easy to implement and who doesn't love markdown.
 
-Pratik Thanki ✌️
+

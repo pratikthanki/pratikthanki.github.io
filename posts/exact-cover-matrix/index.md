@@ -1,5 +1,6 @@
 ---
 title: Exact Cover Matrix
+layout: post
 date: 2020-10-19
 description: Implementing doubly-linked lists.
 tags:
@@ -270,4 +271,4 @@ method. You can find all the code on [GitHub](https://github.com/pratikthanki/Re
 Thanks for taking the time to read this chunky post. It took me nearly two-months of on-and-off time to implement and understand
 Algorithm X. If you have any questions feel free to reach out.
 
-Pratik Thanki ✌️
+

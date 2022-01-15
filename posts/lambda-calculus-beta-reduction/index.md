@@ -1,5 +1,6 @@
 ---
 title: Lambda Calculus Beta Reduction
+layout: post
 date: 2021-01-24
 description: The theory of functions
 tags:
@@ -160,4 +161,4 @@ We can compare this to Haskell, which uses lazy evaluation/call by need
 
 Thanks for reading!
 
-Pratik Thanki ✌️
+

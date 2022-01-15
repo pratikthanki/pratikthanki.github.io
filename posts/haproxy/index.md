@@ -1,5 +1,6 @@
 ---
 title: HAProxy
+layout: post
 date: 2020-11-14
 description: Load Balancing with HAP.
 tags:
@@ -113,4 +114,4 @@ passive servers. There are other (more sophisticated) ways to implement High Ava
 
 Thanks for reading!
 
-Pratik Thanki ✌️
+

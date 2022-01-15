@@ -1,5 +1,6 @@
 ---
 title: FourthDown API
+layout: post
 date: 2020-12-18
 description: Play-by-play data for all tools/technologies and languages.
 tags:
@@ -105,4 +106,4 @@ have any thoughts, questions, bugs or suggestions on the FourthDown API you can 
 
 You can see more details about the endpoints on the [FourthDown API Docs](https://fourthdown.azurewebsites.net/).
 
-Pratik Thanki ✌️
+

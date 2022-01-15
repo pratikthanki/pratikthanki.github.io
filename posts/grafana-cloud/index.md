@@ -1,5 +1,6 @@
 ---
 title: Grafana Cloud
+layout: post
 date: 2021-02-01
 description: Monitoring applications with Grafana
 tags:
@@ -103,4 +104,4 @@ Getting started with the API in any language is super simple, you can read this 
 
 Thanks for reading!
 
-Pratik Thanki ✌️
+

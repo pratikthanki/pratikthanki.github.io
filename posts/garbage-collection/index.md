@@ -1,5 +1,6 @@
 ---
 title: Garbage Collection
+layout: post
 date: 2021-09-04
 description: What is it and how does it work?
 tags:
@@ -125,4 +126,4 @@ the segment.
 This is just a high-level overview of my knoweldge, the [MS Docs](https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/) 
 provie a great overview of GC if you want to know more.
 
-Pratik Thanki ✌️
+

@@ -1,5 +1,6 @@
 ---
 title: Constructing Parse Trees
+layout: post
 date: 2020-07-24
 description: Creating parse trees from the CYK table
 tags:
@@ -351,4 +352,4 @@ covers these areas better than anywehere I have read.
 You can find all the code on [GitHub](https://github.com/pratikthanki/CsAtBath/tree/master/Foundations%20of%20Computation/Parser). 
 If you have any questions or comments please let me know!
 
-Pratik Thanki ✌️
+
