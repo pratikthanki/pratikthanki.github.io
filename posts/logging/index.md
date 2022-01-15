@@ -1,7 +1,7 @@
 ---
+layout: post
 title: Logging
 date: 2021-10-17
-description: Logging
 tags:
   - Monitoring
 ---
