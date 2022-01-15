@@ -4,7 +4,7 @@ layout: post
 date: 2020-11-22
 description: Designing usable, flexible and extensible APIs.
 tags:
-  - REST
+- REST
 ---
 
 Designing APIs can be a lot of fun! I'm excited to cover aspects of REST API design inspired by the API Azure Design 

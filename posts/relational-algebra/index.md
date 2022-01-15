@@ -4,7 +4,7 @@ layout: post
 date: 2020-10-09
 description: 
 tags:
-  - Relational Algebra
+- Relational Algebra
 ---
 
 I have been using SQL for 5+ years now and took something like; `SELECT * FROM [myTable]` for granted, never again! 

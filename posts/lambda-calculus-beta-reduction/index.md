@@ -4,7 +4,7 @@ layout: post
 date: 2021-01-24
 description: The theory of functions
 tags:
-  - Functional Programming
+- Functional Programming
 ---
 
 Further to my previous post on [Lambda Calculus](../lambda-calculus), here I'll share implementation of 

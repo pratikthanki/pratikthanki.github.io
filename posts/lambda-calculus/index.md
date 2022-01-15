@@ -4,7 +4,7 @@ layout: post
 date: 2020-12-14
 description: The theory of functions
 tags:
-  - Functional Programming
+- Functional Programming
 ---
 
 In broadening my understand of CS principles I recently started learning about Functional Programming (or FP). In 

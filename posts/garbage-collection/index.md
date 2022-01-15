@@ -4,7 +4,7 @@ layout: post
 date: 2021-09-04
 description: What is it and how does it work?
 tags:
-  - .NET
+- .NET
 ---
 
 TL;DR: The garbage collector (GC) manages the allocation and release of memory 

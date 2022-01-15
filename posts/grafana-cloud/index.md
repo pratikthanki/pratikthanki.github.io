@@ -4,7 +4,7 @@ layout: post
 date: 2021-02-01
 description: Monitoring applications with Grafana
 tags:
-  - Monitoring
+- Monitoring
 ---
 
 On the back of the Grafana [announcement](https://twitter.com/pratik_thanki/status/1350459889391435776) earlier 

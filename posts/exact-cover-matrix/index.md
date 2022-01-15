@@ -4,7 +4,7 @@ layout: post
 date: 2020-10-19
 description: Implementing doubly-linked lists.
 tags:
-  - Algorithms
+- Algorithms
 ---
 
 I first posted about Donald Knuth and Dancing Links in August, in this post I will cover implementation details and 

@@ -4,7 +4,7 @@ layout: post
 date: 2020-07-22
 description: An insight into the CYK parsing algorithm.
 tags:
-  - Theory of Computation
+- Theory of Computation
 banner: ./data.jpg
 ---
 

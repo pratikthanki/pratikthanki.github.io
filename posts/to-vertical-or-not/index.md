@@ -4,7 +4,7 @@ layout: post
 date: 2020-07-26
 description: What is the deal with a vertical set-up anyway.
 tags:
-  - Home Setup
+- Home Setup
 banner: ./hello.jpg
 ---
 

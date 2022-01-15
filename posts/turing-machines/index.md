@@ -4,7 +4,7 @@ layout: post
 date: 2020-07-29
 description: 
 tags:
-  - Theory of Computation
+- Theory of Computation
 banner: ./enigma.jpeg
 ---
 

@@ -4,7 +4,7 @@ layout: post
 date: 2020-09-10
 description: 
 tags:
-  - .NET
+- .NET
 ---
 
 Further to my prior post on Channels, in this post I will go over implementation details and explore `System.Threading.Channels`.

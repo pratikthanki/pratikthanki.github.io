@@ -4,7 +4,7 @@ layout: post
 date: 2020-12-23
 description: Code samples for the play-by-play API.
 tags:
-  - API
+- API
 ---
 
 Further to my previous post introducing the [FourthDown API](../fourth-down-api), here I have detailed 

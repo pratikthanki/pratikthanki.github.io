@@ -4,7 +4,7 @@ layout: post
 date: 2021-03-21
 description: An agent that plays a simple 3-dice game
 tags:
-  - AI
+- AI
 ---
 
 In this post I'll show how you can create an agent to play a simple 3-dice game, this problem can be modelled using the the Markov 

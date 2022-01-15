@@ -4,7 +4,7 @@ layout: post
 date: 2020-08-30
 description: Solving the exact cover problem.
 tags:
-  - Algorithms
+- Algorithms
 ---
 
 Over the last month (or so) I tasked myself with solving a Sudoku puzzle in C#. Talking to a friend, he mentioned "Algorithm X" 

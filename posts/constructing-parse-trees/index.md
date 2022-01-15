@@ -4,7 +4,7 @@ layout: post
 date: 2020-07-24
 description: Creating parse trees from the CYK table
 tags:
-  - Theory of Computation
+- Theory of Computation
 banner: ./tree.jpg
 ---
 

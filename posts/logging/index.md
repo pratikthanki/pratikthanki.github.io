@@ -4,7 +4,7 @@ title: Logging
 layout: post
 date: 2021-10-17
 tags:
-  - Monitoring
+- Monitoring
 ---
 
 No matter if you're a backend or frontend developer, a crcucial aspect of your application 

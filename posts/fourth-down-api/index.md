@@ -4,7 +4,7 @@ layout: post
 date: 2020-12-18
 description: Play-by-play data for all tools/technologies and languages.
 tags:
-  - API
+- API
 ---
 
 Over the last few weeks I have been working on an open and extensible API for NFL play-by-play data 

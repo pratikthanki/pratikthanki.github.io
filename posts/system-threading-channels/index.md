@@ -4,7 +4,7 @@ layout: post
 date: 2020-08-31
 description: 
 tags:
-  - .NET
+- .NET
 ---
 
 Working in an environemnt where I handle (huge) data in a .NET architecture, something I've learnt more about is [Channels](https://devblogs.microsoft.com/dotnet/an-introduction-to-system-threading-channels/) (thanks W).

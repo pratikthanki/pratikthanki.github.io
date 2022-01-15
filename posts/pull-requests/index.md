@@ -4,7 +4,7 @@ layout: post
 date: 2021-03-28
 description: Getting the most out of code reviews
 tags:
-  - Engineering Practices
+- Engineering Practices
 ---
 
 Something I have been thinking about writing for a while and a huge aspect of Software Engineering is the code review process.

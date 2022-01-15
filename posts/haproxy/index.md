@@ -4,7 +4,7 @@ layout: post
 date: 2020-11-14
 description: Load Balancing with HAP.
 tags:
-  - Load Balancer
+- Load Balancer
 ---
 
 Working with web services in a microservices architecture is so cool and part of that something I have learned and read about 
