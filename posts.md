@@ -3,6 +3,8 @@
 
 [back to home](./index.md)
 
+15 Jan 2022 - [api-design-part-2](./posts/api-design-part-2/index.md)
+
 17 Oct 2021 — [logging](./posts/logging/index.html)
 
 04 Sep 2021 — [garbage collection](./posts/garbage-collection/index.html)
