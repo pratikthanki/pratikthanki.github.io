@@ -25,11 +25,30 @@
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
       </header>
+
       <section>
-
-      {{ content }}
-
+        {{ content }}
       </section>
+
+      <section>
+        <div class="link-wrapper">
+          <style scoped>
+            ul.link a {
+              color:var(--clr-h1-and-bold);
+              text-decoration:none;
+            }
+      
+            ul.link a:hover, a:focus {
+              color: var(--clr-a-text-hvr);
+            }
+          </style>
+          <ul class="link">
+            <li><a href="https://twitter.com/pratik_thanki"><i class="fa-brands fa-twitter"></i> Twitter</a></li>
+            <li><a href="https://www.linkedin.com/in/-pratikthanki/"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></li>
+          </ul>
+        </div>
+      </section>
+
       <footer>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
