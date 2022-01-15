@@ -17,14 +17,16 @@ League and NCAA Football 🏀🏈⚽🏃 and even astronauts 🧑‍🚀 I prese
 Gartner Data and Analytics Summit London - "What Tim Peake has for Breakfast and other 
 Stories from the Frontier of Human Performance Analytics."
 
+* * *
+
 I enjoy learning 🤟 Outside of work I spend my time exploring new tools, technologies 
 and frameworks. I am currently learning Go and gRPC ⚡
-
-* * *
 
 Other than writing code, I have a passion for travelling! My girlfriend and I are 
 always booking last-minute flights away. ✈️ I also follow (and love) the NFL and spend 
 my Sunday's supporting the Dallas Cowboys! ✭
+
+* * *
 
 ### Posts
 
@@ -47,5 +49,8 @@ yards with Neural Nets in C#
 
 * * *
 
+### Contact
+
 If you'd like to get in touch, DM me on [twitter](https://twitter.com/pratik_thanki) 
-or drop me a message on [linkedin](https://www.linkedin.com/in/-pratikthanki/).
+or drop me a message on [linkedin](https://www.linkedin.com/in/-pratikthanki/) and of 
+course checkout my [github](https://github.com/pratikthanki/).
