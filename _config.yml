@@ -4,3 +4,5 @@ description:
 show_downloads: false
 google_analytics: UA-118874438-1
 theme: jekyll-theme-minimal
+color-scheme: auto
+favicon: true
