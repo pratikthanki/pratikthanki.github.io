@@ -1,4 +1,6 @@
 
+## Hello 👋
+
 Thanks for stopping by - I'm a curious problem solver working in asset management, 
 building APIs and managing tech infrastructure used by teams around the globe to 
 make real-time decisions. 🌎 I work in C#, run everything in Docker containers 🐳 
@@ -15,8 +17,8 @@ League and NCAA Football 🏀🏈⚽🏃 and even astronauts 🧑‍🚀 I prese
 Gartner Data and Analytics Summit London - "What Tim Peake has for Breakfast and other 
 Stories from the Frontier of Human Performance Analytics."
 
-I enjoy learning 🤟 Outside of work I spend most of my time exploring new tools, 
-technologies and frameworks. I am currently learning Go and gRPC ⚡
+I enjoy learning 🤟 Outside of work I spend my time exploring new tools, technologies 
+and frameworks. I am currently learning Go and gRPC ⚡
 
 * * *
 
@@ -24,10 +26,14 @@ Other than writing code, I have a passion for travelling! My girlfriend and I ar
 always booking last-minute flights away. ✈️ I also follow (and love) the NFL and spend 
 my Sunday's supporting the Dallas Cowboys! ✭
 
+### Posts
+
 I like to write about various aspects of technology and computer science, read my 
 posts [**here**](./posts.html).
 
 * * *
+
+### Projects
 
 I like hacking on side projects in my spare time:
 
