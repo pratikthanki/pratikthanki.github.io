@@ -1,5 +1,6 @@
 ---
 title: Value Iteration Algorithm
+layout: post
 date: 2021-03-21
 description: An agent that plays a simple 3-dice game
 tags:
@@ -200,4 +201,4 @@ Total time:.......... 6.1443 seconds
 
 Thanks for reading! 
 
-Pratik Thanki ✌️
+

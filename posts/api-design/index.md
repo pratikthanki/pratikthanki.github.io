@@ -1,5 +1,6 @@
 ---
 title: API Design
+layout: post
 date: 2020-11-22
 description: Designing usable, flexible and extensible APIs.
 tags:
@@ -248,4 +249,4 @@ You can find more details on Microsoft REST API design guidelines
 Inspiration for this post and material I found to be very useful was the 
 [Azure API Design Guide](https://azure.microsoft.com/mediahandler/files/resourcefiles/api-design/Azure_API-Design_Guide_eBook.pdf).
 
-Pratik Thanki ✌️
+

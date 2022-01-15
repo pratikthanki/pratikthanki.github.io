@@ -1,5 +1,6 @@
 ---
 title: Lambda Calculus
+layout: post
 date: 2020-12-14
 description: The theory of functions
 tags:
@@ -317,4 +318,4 @@ post I will cover the concept of beta-reduction and how that can be implemented 
 
 Thanks for reading!
 
-Pratik Thanki ✌️
+

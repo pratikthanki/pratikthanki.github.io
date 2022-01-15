@@ -1,5 +1,6 @@
 ---
 title: Turing Machines
+layout: post
 date: 2020-07-29
 description: 
 tags:
@@ -194,4 +195,4 @@ on computer science.
 
 Thanks for your time and if you have made it this far let me know what you thought! 
 
-Pratik Thanki ✌️
+

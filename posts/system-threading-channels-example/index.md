@@ -1,5 +1,6 @@
 ---
 title: Channels Example
+layout: post
 date: 2020-09-10
 description: 
 tags:
@@ -119,4 +120,4 @@ section on new features and community discussions.
 
 Thanks for taking the time to read this post! 
 
-Pratik Thanki ✌️
+

@@ -1,5 +1,6 @@
 ---
 title: Relational Algebra
+layout: post
 date: 2020-10-09
 description: 
 tags:
@@ -112,4 +113,4 @@ This was a brief overview on relational algebra and how it underpins database qu
 consider reading more about [Set Theory](https://en.wikipedia.org/wiki/Set_theory). SQL is an implementation of 
 [multi-set theory](https://en.wikipedia.org/wiki/Multiset).
 
-Pratik Thanki ✌️
+

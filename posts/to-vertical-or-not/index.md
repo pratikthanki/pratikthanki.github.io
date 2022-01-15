@@ -1,5 +1,6 @@
 ---
 title: To vertical or not
+layout: post
 date: 2020-07-26
 description: What is the deal with a vertical set-up anyway.
 tags:
@@ -51,4 +52,4 @@ Here are some examples that really show me that the internet was designed to be 
 Don't take my word on this. Rotate your screen and try working with it for a full work week. It will feel strange initially, 
 but after a few days you'll get use to it and really see the benefits.
 
-Pratik Thanki ✌️
+

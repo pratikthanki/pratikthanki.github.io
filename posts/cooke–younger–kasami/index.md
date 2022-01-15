@@ -1,5 +1,6 @@
 ---
 title: Cooke–Younger–Kasami
+layout: post
 date: 2020-07-22
 description: An insight into the CYK parsing algorithm.
 tags:
@@ -169,4 +170,4 @@ If you're still reading this then - wow and why?!
 
 Let me know what you think and if anything was unclear or could be explained better then get in touch! 
 
-Pratik Thanki ✌️
+

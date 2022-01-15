@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Logging
+layout: post
 date: 2021-10-17
 tags:
   - Monitoring
@@ -119,4 +120,4 @@ logging whilst there is `DEBUG` logs which give a more detailed insight into how
 Logging is just one aspect of observability, you can read more about this in a prior 
 article; [Grafana Cloud](../grafana-cloud/index.mdx).
 
-Pratik Thanki ✌️
+

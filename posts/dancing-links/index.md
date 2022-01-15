@@ -1,5 +1,6 @@
 ---
 title: Dancing Links
+layout: post
 date: 2020-08-30
 description: Solving the exact cover problem.
 tags:
@@ -195,4 +196,4 @@ Thanks for reading, if you have any questions/queries feel free to reach out.
 
 Read more details from Knuth’s [paper](https://arxiv.org/abs/cs/0011047) which I have refereced in this post.
 
-Pratik Thanki ✌️
+
