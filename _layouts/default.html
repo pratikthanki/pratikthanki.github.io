@@ -24,29 +24,30 @@
         {% if site.github.is_user_page %}
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
+
+        <section>
+          <div class="link-wrapper">
+            <style scoped>
+              ul.link a {
+                color:var(--clr-h1-and-bold);
+                text-decoration:none;
+              }
+        
+              ul.link a:hover, a:focus {
+                color: var(--clr-a-text-hvr);
+              }
+            </style>
+            <ul class="link">
+              <li><a href="https://twitter.com/pratik_thanki"><i class="fa-brands fa-twitter"></i> Twitter</a></li>
+              <li><a href="https://www.linkedin.com/in/-pratikthanki/"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></li>
+            </ul>
+          </div>
+        </section>
+
       </header>
 
       <section>
         {{ content }}
-      </section>
-
-      <section>
-        <div class="link-wrapper">
-          <style scoped>
-            ul.link a {
-              color:var(--clr-h1-and-bold);
-              text-decoration:none;
-            }
-      
-            ul.link a:hover, a:focus {
-              color: var(--clr-a-text-hvr);
-            }
-          </style>
-          <ul class="link">
-            <li><a href="https://twitter.com/pratik_thanki"><i class="fa-brands fa-twitter"></i> Twitter</a></li>
-            <li><a href="https://www.linkedin.com/in/-pratikthanki/"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></li>
-          </ul>
-        </div>
       </section>
 
       <footer>
