@@ -1,12 +1,11 @@
 ---
-title: API Design Part 2
+title: gRPC vs REST
 layout: post
 date: 2022-01-15
 description: More API design
 tags: 
 - REST 
 - gRPC 
-- GraphQL
 ---
 
 As most engineers will know, APIs are the standard for modern communication between 

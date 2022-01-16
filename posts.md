@@ -3,7 +3,7 @@
 
 [back to home](./index.md)
 
-15 Jan 2022 - [api-design-part-2](./posts/api-design-part-2/index.md)
+15 Jan 2022 - [grpc-vs-rest](./posts/grpc-vs-rest/index.md)
 
 17 Oct 2021 — [logging](./posts/logging/index.html)
 
