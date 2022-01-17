@@ -7,7 +7,7 @@
 
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
@@ -22,12 +22,24 @@
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
+        {% if site.navigation -%}
+        <div class="sidebar-section">
+          <ul class="navigation-icons" style="list-style: none;padding: 0;">
+            {% for navigation in site.navigation -%}
+              <li>
+                <a class="navigation-icon" href="{{ navigation.path }}"> {{ navigation.title }}</a>
+              </li>
+            {%- endfor %}
+          </ul>
+        </div>
+        {%- endif %}
+
         {% if site.social -%}
         <div class="sidebar-section">
           <ul class="social-icons" style="list-style: none;">
             {% for social in site.social -%}
               <li>
-                <a class="social-icon" href="{{ social.url }}/{{ social.handle }}"><i class="{{ social.icon | default: 'fas fa-link' }} fa-2x" title="{{ social.title }}"></i> {{ social.handle }}</a>
+                <a class="social-icon" href="{{ social.url }}/{{ social.handle }}"><i class="{{ social.icon | default: 'fas fa-link' }} fa-2x" title="{{ social.title }}"></i> {{ social.title }}</a>
               </li>
             {%- endfor %}
           </ul>
