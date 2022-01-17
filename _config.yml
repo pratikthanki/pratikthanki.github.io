@@ -7,3 +7,13 @@ google_analytics: UA-118874438-1
 theme: jekyll-theme-minimal
 color-scheme: auto
 favicon: true
+
+twitter:
+  username: pratik_thanki
+  card: summary
+social:
+  name: Pratik Thanki
+  links:
+    - https://twitter.com/pratik_thanki
+    - https://github.com/pratikthanki
+    - https://www.linkedin.com/in/-pratikthanki/

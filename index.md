@@ -31,7 +31,7 @@ my Sunday's supporting the Dallas Cowboys! ✭
 ### Posts
 
 I like to write about various aspects of technology and computer science, read my 
-posts [**here**](./posts.html).
+posts [here](./posts.html).
 
 * * *
 
