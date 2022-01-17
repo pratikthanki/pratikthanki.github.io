@@ -21,21 +21,17 @@
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
-        {% if site.github.is_user_page %}
-        <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
-        {% endif %}
-
-        {% if site.data.social -%}
+        {% if site.social -%}
         <div class="sidebar-section">
-          <ul class="social-icons">
-            {% for social in site.data.social -%}
+          <ul class="social-icons" style="list-style: none;">
+            {% for social in site.social -%}
               <li>
-                <a class="social-icon" href="{{ social.url }}"><i class="{{ social.icon | default: 'fas fa-link' }} fa-2x" title="{{ social.title }}"></i></a>
+                <a class="social-icon" href="{{ social.url + social.handle }}"><i class="{{ social.icon | default: 'fas fa-link' }} fa-2x" title="{{ social.title }}"></i> pratik_thanki</a>
               </li>
             {%- endfor %}
           </ul>
         </div>
-      {%- endif %}
+        {%- endif %}
 
       </header>
 
@@ -45,6 +41,7 @@
 
       <footer>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        <p><small>© All rights reserved.</small></p>
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
