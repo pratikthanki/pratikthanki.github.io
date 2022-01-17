@@ -23,7 +23,11 @@ social:
   url: https://github.com
   handle: pratikthanki
   icon: fa fa-github
-- title: linkedIn
+- title: linkedin
   url: https://www.linkedin.com/in
   handle: -pratikthanki
   icon: fa fa-linkedin
+- title: email
+  url: pratikthanki1@gmail.com
+  handle:
+  icon: fa fa-envelope

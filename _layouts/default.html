@@ -36,7 +36,8 @@
             {% if site.social -%}
             {% for social in site.social -%}
               <li>
-                <a class="social" href="{{ social.url }}/{{ social.handle }}"><i class="{{ social.icon | default: 'fas fa-link' }}" title="{{ social.title }}"></i> {{ social.title }}</a>
+                <a class="social" href="{{ social.url }}/{{ social.handle }}" target="_blank" rel="noopener noreferrer">
+                  <i class="{{ social.icon | default: 'fas fa-link' }}" title="{{ social.title }}"></i> {{ social.title }}</a>
               </li>
             {%- endfor %}
             {%- endif %}
