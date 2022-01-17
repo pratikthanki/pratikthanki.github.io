@@ -22,29 +22,26 @@
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
-        {% if site.navigation -%}
         <div class="sidebar-section">
-          <ul class="navigation-icons" style="list-style: none;padding: 0;">
+          <ul class="navigation" style="list-style: none;padding: 0;">
+
+            {% if site.navigation -%}
             {% for navigation in site.navigation -%}
               <li>
                 <a class="navigation-icon" href="{{ navigation.path }}"> {{ navigation.title }}</a>
               </li>
             {%- endfor %}
-          </ul>
-        </div>
-        {%- endif %}
+            {%- endif %}
 
-        {% if site.social -%}
-        <div class="sidebar-section">
-          <ul class="social-icons" style="list-style: none;">
+            {% if site.social -%}
             {% for social in site.social -%}
               <li>
-                <a class="social-icon" href="{{ social.url }}/{{ social.handle }}"><i class="{{ social.icon | default: 'fas fa-link' }} fa-2x" title="{{ social.title }}"></i> {{ social.title }}</a>
+                <a class="social" href="{{ social.url }}/{{ social.handle }}"><i class="{{ social.icon | default: 'fas fa-link' }}" title="{{ social.title }}"></i> {{ social.title }}</a>
               </li>
             {%- endfor %}
+            {%- endif %}
           </ul>
         </div>
-        {%- endif %}
 
       </header>
 
