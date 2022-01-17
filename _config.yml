@@ -28,6 +28,6 @@ social:
   handle: -pratikthanki
   icon: fa fa-linkedin
 - title: email
-  url: pratikthanki1@gmail.com
-  handle:
+  url: mailto:pratikthanki1@gmail.com?subject=Hello!&body=Hi, this is only a test!
+  handle: ""
   icon: fa fa-envelope
