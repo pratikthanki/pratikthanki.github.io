@@ -10,14 +10,14 @@ favicon: true
 
 social:
 - title: Twitter
-  url: https://twitter.com/
+  url: https://twitter.com
   handle: pratik_thanki
   icon: fab fa-twitter
 - title: GitHub
-  url: https://github.com/
+  url: https://github.com
   handle: pratikthanki
   icon: fab fa-github
 - title: LinkedIn
-  url: https://www.linkedin.com/in/
+  url: https://www.linkedin.com/in
   handle: -pratikthanki
   icon: fab fa-linkedin

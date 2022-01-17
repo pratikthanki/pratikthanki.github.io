@@ -7,6 +7,7 @@
 
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
@@ -26,7 +27,7 @@
           <ul class="social-icons" style="list-style: none;">
             {% for social in site.social -%}
               <li>
-                <a class="social-icon" href="{{ social.url + social.handle }}"><i class="{{ social.icon | default: 'fas fa-link' }} fa-2x" title="{{ social.title }}"></i> pratik_thanki</a>
+                <a class="social-icon" href="{{ social.url }}/{{ social.handle }}"><i class="{{ social.icon | default: 'fas fa-link' }} fa-2x" title="{{ social.title }}"></i> {{ social.handle }}</a>
               </li>
             {%- endfor %}
           </ul>
