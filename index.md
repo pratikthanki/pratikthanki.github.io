@@ -1,15 +1,11 @@
 
-## Hello 👋
+# Hello 👋
 
 Thanks for stopping by - I'm a curious problem solver working in asset management, 
 building APIs and managing tech infrastructure used by teams around the globe to 
 make real-time decisions. 🌎 I work in C#, run everything in Docker containers 🐳 
 and deploy/manage architecture on Kubernetes ☸ and always look to find ways of 
 automating anything and everything.
-
-* * *
-
-### Experience
 
 Previosuly, I was building distributed systems in the energy trading sector, working 
 with some of the smartest and talented Software Engineers and Product Managers 🖥️ I 
@@ -21,7 +17,7 @@ other Stories from the Frontier of Human Performance Analytics."
 
 * * *
 
-### Interests
+## Interests
 
 I enjoy learning 🤟 Outside of work I spend my time exploring new tools, technologies 
 and frameworks. I am currently learning Go and gRPC ⚡
@@ -35,14 +31,14 @@ my Sunday's supporting the Dallas Cowboys! ✭
 
 * * *
 
-### Posts
+## Posts
 
 I like to write about various aspects of technology and computer science, have a read 
 of my posts [here](./posts.html).
 
 * * *
 
-### Projects
+## Projects
 
 I also like hacking on side projects in my spare time:
 
@@ -56,7 +52,7 @@ yards with Neural Nets in C#
 
 * * *
 
-### Contact
+## Contact
 
 If you'd like to get in touch, DM me on [twitter](https://twitter.com/pratik_thanki) 
 or drop me a message on [linkedin](https://www.linkedin.com/in/-pratikthanki/) and of 
