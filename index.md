@@ -9,18 +9,21 @@ automating anything and everything.
 
 * * *
 
-Prior to that I was building distributed systems in the energy trading sector, working 
-with some of the smartest and talented Software Engineers and Product Managers 🖥️ I got 
-into tech and to where I am now through my experience at a tech start-up working with 
-the biggest sports teams and organisations around the world; from the NBA, NFL, Premier 
-League and NCAA Football 🏀🏈⚽🏃 and even astronauts 🧑‍🚀 I presented a Case Study at the 
-Gartner Data and Analytics Summit London - "What Tim Peake has for Breakfast and other 
-Stories from the Frontier of Human Performance Analytics."
+Previosuly, I was building distributed systems in the energy trading sector, working 
+with some of the smartest and talented Software Engineers and Product Managers 🖥️ I 
+got into tech and to where I am now through my experience at a tech start-up working 
+with the biggest sports teams and organisations around the world; from the NBA, NFL, 
+Premier League and NCAA Football 🏀🏈⚽🏃 and even astronauts 🧑‍🚀 I presented a Case Study 
+at the Gartner Data and Analytics Summit London - "What Tim Peake has for Breakfast and 
+other Stories from the Frontier of Human Performance Analytics."
 
 * * *
 
 I enjoy learning 🤟 Outside of work I spend my time exploring new tools, technologies 
 and frameworks. I am currently learning Go and gRPC ⚡
+
+Checkout this post I wrote for the Grafana Blog on how I leverage Grafana Cloud to 
+aspects of observability for my NFL play-by-play API: [How the FourthDown NFL play-by-play API measures its performance with Prometheus, Jaeger, and Grafana Cloud](https://grafana.com/blog/2021/02/05/how-the-fourthdown-nfl-play-by-play-api-measures-its-performance-with-prometheus-jaeger-and-grafana-cloud/)
 
 Other than writing code, I have a passion for travelling! My girlfriend and I are 
 always booking last-minute flights away. ✈️ I also follow (and love) the NFL and spend 
@@ -30,14 +33,14 @@ my Sunday's supporting the Dallas Cowboys! ✭
 
 ### Posts
 
-I like to write about various aspects of technology and computer science, read my 
-posts [here](./posts.html).
+I like to write about various aspects of technology and computer science, have a read 
+of my posts [here](./posts.html).
 
 * * *
 
 ### Projects
 
-I like hacking on side projects in my spare time:
+I also like hacking on side projects in my spare time:
 
 - [FourthDown API](https://fourthdown.azurewebsites.net/): NFL play-by-play API 
 developed in ASP.NET Core
