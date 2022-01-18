@@ -9,6 +9,8 @@ automating anything and everything.
 
 * * *
 
+### Experience
+
 Previosuly, I was building distributed systems in the energy trading sector, working 
 with some of the smartest and talented Software Engineers and Product Managers 🖥️ I 
 got into tech and to where I am now through my experience at a tech start-up working 
@@ -18,6 +20,8 @@ at the Gartner Data and Analytics Summit London - "What Tim Peake has for Breakf
 other Stories from the Frontier of Human Performance Analytics."
 
 * * *
+
+### Interests
 
 I enjoy learning 🤟 Outside of work I spend my time exploring new tools, technologies 
 and frameworks. I am currently learning Go and gRPC ⚡
