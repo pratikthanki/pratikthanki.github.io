@@ -147,7 +147,7 @@ types of scenarios make it "ideal":
 3. Point-to-point real-time services that need to handle streaming requests or responses.
 
 ## Further Reading 
-SOme useful resources here if you want to dive deeper:
+Some useful resources here if you want to dive deeper:
 - [Introduction to gRPC on .NET](https://docs.microsoft.com/en-us/aspnet/core/grpc/?view=aspnetcore-5.0) by Microsoft
 - [Introduction to gRPC](https://grpc.io/docs/what-is-grpc/introduction/) by `grpc.io`
 
