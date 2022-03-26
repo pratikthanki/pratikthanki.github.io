@@ -8,6 +8,10 @@ theme: jekyll-theme-minimal
 color-scheme: auto
 favicon: true
 
+markdown: kramdown
+kramdown:
+    math_engine: katex
+
 navigation:
 - title: about
   path: /
