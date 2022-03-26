@@ -14,8 +14,8 @@ most people think about it, two thoughts come to mind:
 
 Well, according to NASA they answered [how many decimals of pi do we really need](https://www.jpl.nasa.gov/edu/news/2016/3/16/how-many-decimals-of-pi-do-we-really-need/) 
 with 15 — `3.141592653589793`. That hasn't stopped many engineers trying 
-to calculate pi to incredibly granular levels. As recently as 2021 the 
-University of Applied Sciences Graubünden calculated pi to 
+to calculate \\( \pi \\) to incredibly granular levels. As recently as 2021 the 
+University of Applied Sciences Graubünden calculated \\( \pi \\) to 
 [62.8 trillion digits](https://www.fhgr.ch/fachgebiete/angewandte-zukunftstechnologien/davis-zentrum/pi-challenge/).
 
 Consider a circle within a sqaure (like the image below) with a radius of 1. 
@@ -26,7 +26,7 @@ upper right quadrant.
 
 The point is in the cicrle if: \\( \sqrt{x^2 + y^2} < 1 \\)
 
-The two basic formulas we'll use to calculate pi:
+The two basic formulas we'll use to calculate \\( \pi \\):
 
 \\( Area_{circle} = \pi{r^2} \\)
 
