@@ -3,7 +3,7 @@ logo: /assets/pratik.jpg
 description: "I'm a software engineer and an nfl fan. I also write occasionally."
 blank_title: true
 show_downloads: false
-google_analytics: "299578633"
+google_analytics: UA-118874438-1
 theme: jekyll-theme-minimal
 color-scheme: auto
 favicon: true
