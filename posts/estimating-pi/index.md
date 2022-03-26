@@ -18,9 +18,9 @@ to calculate \\( \pi \\) to incredibly granular levels. As recently as 2021 the
 University of Applied Sciences Graubünden calculated \\( \pi \\) to 
 [62.8 trillion digits](https://www.fhgr.ch/fachgebiete/angewandte-zukunftstechnologien/davis-zentrum/pi-challenge/).
 
-Consider a circle within a square (like the image below) with a radius of 1. 
-We can take a pair of random numbers between 0 and 1 and plot them in the 
-upper right quadrant only.
+Consider a circle within a square (like the image below) with a radius of 1 
+and centre at 0,0. We can take a pair of random numbers between 0 and 1 and 
+plot them in the upper right quadrant only.
 
 ![circle-in-square](./circle-in-square.png)
 
