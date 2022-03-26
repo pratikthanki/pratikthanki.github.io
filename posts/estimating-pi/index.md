@@ -18,6 +18,14 @@ to calculate pi to incredibly granular levels. As recently as 2021 the
 University of Applied Sciences Graubünden calculated pi to 
 [62.8 trillion digits](https://www.fhgr.ch/fachgebiete/angewandte-zukunftstechnologien/davis-zentrum/pi-challenge/).
 
+
+$$\LaTeX code$$
+
+\\[\LaTeX code\\]
+
+\\(\LaTeX code\\)
+
+
 Consider a circle within a sqaure (like the image below) with a radius of 1. 
 We can take a pair of random numbers between 0 and 1 and plot them in the 
 upper right quadrant.
