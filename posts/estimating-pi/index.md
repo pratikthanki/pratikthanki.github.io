@@ -5,7 +5,6 @@ date: 2022-03-27
 description: The law of large numbers
 tags:
 - Mathematics
-katex: True
 ---
 
 Though [Pi Day](https://www.piday.org/) was almost two weeks ago, when 
