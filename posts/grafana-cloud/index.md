@@ -103,5 +103,3 @@ here on observability in [ASP.NET Core](https://devblogs.microsoft.com/aspnet/ob
 Getting started with the API in any language is super simple, you can read this post with code snippet - [FourthDown API Samples](../fourth-down-api-samples).
 
 Thanks for reading!
-
-

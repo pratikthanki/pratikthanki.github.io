@@ -119,5 +119,3 @@ logging whilst there is `DEBUG` logs which give a more detailed insight into how
 
 Logging is just one aspect of observability, you can read more about this in a prior 
 article; [Grafana Cloud](../grafana-cloud/index.mdx).
-
-

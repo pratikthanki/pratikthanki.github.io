@@ -119,5 +119,3 @@ There are some cool developments in the GitHub repo, particularly the [Issues](h
 section on new features and community discussions. 
 
 Thanks for taking the time to read this post! 
-
-

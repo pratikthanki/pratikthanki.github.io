@@ -106,5 +106,3 @@ And finally, this is what 1 million digits of \\( \pi \\) looks like:
 
 
 ```
-
-

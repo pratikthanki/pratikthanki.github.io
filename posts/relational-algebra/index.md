@@ -112,5 +112,3 @@ And the set `Teams` with the attributes `Team, Name`;
 This was a brief overview on relational algebra and how it underpins database querying, for more information you should also 
 consider reading more about [Set Theory](https://en.wikipedia.org/wiki/Set_theory). SQL is an implementation of 
 [multi-set theory](https://en.wikipedia.org/wiki/Multiset).
-
-

@@ -113,5 +113,3 @@ If that load balancer fails, your failover mechanism will detect it and automati
 passive servers. There are other (more sophisticated) ways to implement High Availability setups, this is a simple example.
 
 Thanks for reading!
-
-

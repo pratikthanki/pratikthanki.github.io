@@ -317,5 +317,3 @@ Introduction to Lambda Calculus. The fun really started with implementing lambda
 post I will cover the concept of beta-reduction and how that can be implemented in Haskell.
 
 Thanks for reading!
-
-

@@ -51,5 +51,3 @@ Here are some examples that really show me that the internet was designed to be 
 
 Don't take my word on this. Rotate your screen and try working with it for a full work week. It will feel strange initially, 
 but after a few days you'll get use to it and really see the benefits.
-
-

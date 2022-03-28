@@ -160,5 +160,3 @@ We can compare this to Haskell, which uses lazy evaluation/call by need
 - Implementation is more complicated and creates overhead.
 
 Thanks for reading!
-
-

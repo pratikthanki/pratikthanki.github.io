@@ -246,5 +246,3 @@ $response | ConvertTo-Json
 http --follow --timeout 3600 GET 'https://fourthdown.azurewebsites.net/api/game/scoringsummaries?Week=1&Team=NE&Season=2017'
 
 ```
-
-

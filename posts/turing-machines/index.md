@@ -194,5 +194,3 @@ Many of Turing’s contributions, are today considered as pioneering. The 1936 p
 on computer science.
 
 Thanks for your time and if you have made it this far let me know what you thought! 
-
-

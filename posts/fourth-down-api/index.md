@@ -105,5 +105,3 @@ have any thoughts, questions, bugs or suggestions on the FourthDown API you can 
 [Issue](https://github.com/pratikthanki/FourthDown/issues) with details and I will aim to fix or expand capabilities!
 
 You can see more details about the endpoints on the [FourthDown API Docs](https://fourthdown.azurewebsites.net/).
-
-

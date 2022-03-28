@@ -21,5 +21,3 @@ Onto the blog then. Strangely, for something like this you're spoilt for choice 
 Maybe make your own static pages with [jekyll](https://jekyllrb.com/). Too many options right?!
 
 I've opted for the [gatsby-starter-minimal-blog](https://github.com/LekoArts/gatsby-starter-minimal-blog) and found it easy to implement and who doesn't love markdown.
-
-

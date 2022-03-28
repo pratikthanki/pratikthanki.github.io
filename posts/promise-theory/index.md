@@ -139,5 +139,3 @@ Read more about promises from the Cloud Native Computing Foundation (CNCF) and t
 [Mark Burgess](https://www.linkedin.com/in/markburgessoslo/). 
 
 I will follow-up with a deeper dive of Promise Theory and examples within the context of Kubernetes.
-
-

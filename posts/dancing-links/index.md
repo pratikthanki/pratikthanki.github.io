@@ -195,5 +195,3 @@ In my next post I'll go into more detaila around the application and implementat
 Thanks for reading, if you have any questions/queries feel free to reach out. 
 
 Read more details from Knuth’s [paper](https://arxiv.org/abs/cs/0011047) which I have refereced in this post.
-
-
