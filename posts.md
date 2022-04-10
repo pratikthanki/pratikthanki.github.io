@@ -5,6 +5,8 @@
 
 ## 2022
 
+11 Apr 2022 - [continuous engineering](./posts/continuous-engineering)
+
 27 Mar 2022 - [estimating pi](./posts/estimating-pi)
 
 28 Feb 2022 - [promise theory](./posts/promise-theory)
