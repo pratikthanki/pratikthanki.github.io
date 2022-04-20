@@ -4,16 +4,16 @@
 Thanks for stopping by - I'm a curious problem solver working in asset management 
 leading the design of scalable and performant applications and tech infrastructure 
 used by teams around the globe to make real-time decisions. 🌎 I work in C#, run 
-everything in containers 🐳 and deploy/manage architecture on Kubernetes ☸ and 
-always look to find ways of automating anything and everything.
+everything in containers 🐳 and deploy/manage event-driven architectures on 
+Kubernetes ☸ and look to automate anything and everything.
 
 Previosuly, I was building distributed systems in the energy trading sector, working 
-with some of the smartest and talented Software Engineers and Product Managers 🖥️ I 
-started off in engineering and built experience at a tech start-up working with the 
-biggest sports teams and organisations around the world; from the NBA, NFL, Premier 
-League and NCAA Football 🏀🏈⚽🏃 and even astronauts 🧑‍🚀 I presented a Case Study at 
-the Gartner Data and Analytics Summit London - "What Tim Peake has for Breakfast and 
-other Stories from the Frontier of Human Performance Analytics."
+with some of the smartest and talented Software Engineers and Product Managers 🖥️ 
+Before that, I was at a sports tech start-up working with the biggest sports teams 
+and organisations around the world; from the NBA, NFL, Premier League and NCAA Football 
+🏀🏈⚽🏃 and even astronauts 🧑‍🚀 I presented a Case Study at the Gartner Data and Analytics 
+Summit London - "What Tim Peake has for Breakfast and other Stories from the Frontier 
+of Human Performance Analytics."
 
 * * *
 
