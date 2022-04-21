@@ -55,5 +55,5 @@ yards with Neural Nets in C#
 ### Contact
 
 If you'd like to get in touch, DM me on [twitter](https://twitter.com/pratik_thanki) 
-or drop me a message on [linkedin](https://www.linkedin.com/in/-pratikthanki/) and of 
-course checkout my [github](https://github.com/pratikthanki/).
+or drop me a message on [linkedin](https://www.linkedin.com/in/-pratikthanki/) and ofcourse 
+checkout my [github](https://github.com/pratikthanki/).

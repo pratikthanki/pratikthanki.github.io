@@ -19,19 +19,15 @@ navigation:
   path: /posts
 
 social:
+- title: fourthdown api
+  url: https://fourthdown.azurewebsites.net/
+  icon: fa-solid fa-football
 - title: twitter
-  url: https://twitter.com
-  handle: pratik_thanki
-  icon: fa fa-twitter
+  url: https://twitter.com/pratik_thanki
+  icon: fa-brands fa-twitter
 - title: github
-  url: https://github.com
-  handle: pratikthanki
-  icon: fa fa-github
+  url: https://github.com/pratikthanki
+  icon: fa-brands fa-github
 - title: linkedin
-  url: https://www.linkedin.com/in
-  handle: -pratikthanki
-  icon: fa fa-linkedin
-- title: email
-  url: "mailto:pratikthanki1@gmail.com?subject=Hello!&body=Hi,\nthis is only a test!"
-  handle: ""
-  icon: fa fa-envelope
+  url: https://www.linkedin.com/in/-pratikthanki
+  icon: fa-brands fa-linkedin
