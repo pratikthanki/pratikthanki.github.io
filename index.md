@@ -5,15 +5,18 @@ Thanks for stopping by - I'm a curious problem solver working in asset managemen
 leading the design of scalable and performant applications and tech infrastructure 
 used by teams around the globe for real-time decisions making. 🌎 I work in C#, run 
 everything in containers 🐳 and deploy/manage event-driven architectures on 
-Kubernetes ☸ and look to automate anything and everything.
+Kubernetes ☸ and look to automate everything.
 
 Previosuly, I was building distributed systems in the energy trading sector, working 
 with some of the smartest and talented Software Engineers and Product Managers 🖥️ 
 Before that, I was at a sports tech start-up working with the biggest sports teams 
 and organisations around the world; from the NBA, NFL, Premier League and NCAA Football 
-🏀🏈⚽🏃 and even astronauts 🧑‍🚀 I presented a Case Study at the Gartner Data and Analytics 
-Summit London - "What Tim Peake has for Breakfast and other Stories from the Frontier 
-of Human Performance Analytics."
+🏀🏈⚽🏃 and even astronauts 🧑‍🚀
+
+I presented a Case Study at the Gartner Data and Analytics Summit London - "What Tim 
+Peake has for Breakfast and other Stories from the Frontier of Human Performance Analytics."
+
+If you found any of this intriguing, you can read more about about my [experience](./experience).
 
 * * *
 
@@ -31,7 +34,7 @@ my Sunday's supporting the Dallas Cowboys! ✭
 ### Posts
 
 I like to write about various aspects of technology and computer science, have a read 
-of my posts [here](./posts.html).
+of my posts [here](./posts).
 
 This is my featured piece on observability for the Grafana Blog on how I leverage 
 Grafana Cloud for my NFL play-by-play API: [How the FourthDown NFL play-by-play API measures its performance with Prometheus, Jaeger, and Grafana Cloud](https://grafana.com/blog/2021/02/05/how-the-fourthdown-nfl-play-by-play-api-measures-its-performance-with-prometheus-jaeger-and-grafana-cloud/)
