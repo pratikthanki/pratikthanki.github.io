@@ -3,7 +3,7 @@
 
 Thanks for stopping by - I'm a curious problem solver working in asset management 
 leading the design of scalable and performant applications and tech infrastructure 
-used by teams around the globe to make real-time decisions. 🌎 I work in C#, run 
+used by teams around the globe for real-time decisions making. 🌎 I work in C#, run 
 everything in containers 🐳 and deploy/manage event-driven architectures on 
 Kubernetes ☸ and look to automate anything and everything.
 

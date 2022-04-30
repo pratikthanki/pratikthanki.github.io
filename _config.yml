@@ -17,6 +17,8 @@ navigation:
   path: /
 - title: posts
   path: /posts
+- title: experience
+  path: /experience
 
 social:
 - title: fourthdown api
