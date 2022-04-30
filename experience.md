@@ -51,7 +51,7 @@ and other Stories from the Frontier of Human Performance."
 
 ##### University of Bath - Research Associate (Jun 2015 - Mar 2016) | Bath, England
 
-- Examined the efficacy of a movement control exercise protocol to reduce the risk of injury in youth 
-rugby.
+- Examined the [efficacy of a movement control exercise](https://bmjopensem.bmj.com/content/2/1/e000043) 
+protocol to reduce the risk of injury in youth rugby.
 - Designed and scaled data collection pipeline to support 30+ schools (~2000 players) written in R.
 - Statistical modelling and analysis in R – packages included MASS, car, zoo & ggplot2.
