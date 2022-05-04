@@ -27,7 +27,7 @@ and frameworks. I am currently learning Go and gRPC ⚡
 
 Other than writing code, I have a passion for travelling! My girlfriend and I are 
 always booking last-minute flights away. ✈️ I also follow (and love) the NFL and spend 
-my Sunday's supporting the Dallas Cowboys! ✭
+my Sunday's watching Red Zone!
 
 * * *
 
