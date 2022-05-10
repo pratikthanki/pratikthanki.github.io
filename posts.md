@@ -5,6 +5,8 @@
 
 ## 2022
 
+10 Apr 2022 - [health checks](./posts/health-checks)
+
 11 Apr 2022 - [continuous engineering](./posts/continuous-engineering)
 
 27 Mar 2022 - [estimating pi](./posts/estimating-pi)
