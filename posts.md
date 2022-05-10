@@ -5,7 +5,7 @@
 
 ## 2022
 
-10 Apr 2022 - [health checks](./posts/health-checks)
+10 May 2022 - [health checks](./posts/health-checks)
 
 11 Apr 2022 - [continuous engineering](./posts/continuous-engineering)
 
