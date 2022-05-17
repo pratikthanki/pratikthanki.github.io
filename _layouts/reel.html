@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<h1>Reel</h1>
+
+<div class ="image-gallery">
+  {% for photo in photos %}
+    <div class="box">
+      <a href="{{ photo.image }}">
+        <img src="{{ photo.image }}" alt="{{ photo.title }}"  class="img-gallery" />
+      </a>
+      <small>{{ photo.date }}</small>
+      <small>{{ photo.location }}</small>
+      <p>{{ photo.caption }}</p>
+    </div>
+  {% endfor %}
+</div>

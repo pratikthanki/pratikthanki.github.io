@@ -1,5 +1,5 @@
 title: Pratik Thanki
-logo: /assets/pratik.jpg
+logo: /images/pratik.jpg
 description: "I'm a software engineer and an nfl fan. I also write occasionally."
 blank_title: true
 show_downloads: false
@@ -19,6 +19,8 @@ navigation:
   path: /posts
 - title: experience
   path: /experience
+- title: reel
+  path: /reel
 
 social:
 - title: fourthdown api
