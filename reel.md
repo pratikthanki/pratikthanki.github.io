@@ -1,6 +1,7 @@
 ---
 title: Reel
 layout: reel
+description: this is a description
 photos:
 - title: some title 3
   caption: this is some caption 3
