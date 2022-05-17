@@ -1,6 +1,6 @@
 ---
 layout: reel
-posts:
+photos:
 - title: some title 3
   caption: this is some caption 3
   image: images/pratik.jpg
