@@ -8,12 +8,14 @@ layout: default
   </div>
 </section>
 
-<div class ="image-gallery" style="display: grid">
+<div class ="image-gallery">
   {% for photo in page.photos %}
     <div class="box">
       <img src="{{ photo.image }}" alt="{{ photo.title }}"  class="img-gallery" />
-      <small>{{ photo.date }}</small>
-      <small>{{ photo.location }}</small>
+      <p style="text-align:left;">
+        {{ photo.location }}
+        <span style="float:right;">{{ photo.date }}</span>
+      </p>
       <p>{{ photo.caption }}</p>
     </div>
   {% endfor %}
