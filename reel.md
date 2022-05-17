@@ -1,4 +1,5 @@
 ---
+title: Reel
 layout: reel
 photos:
 - title: some title 3

@@ -4,8 +4,18 @@ layout: default
 
 <h1>Reel</h1>
 
+<section>
+  <div>
+    <h1>{{ page.title }}</h1>
+  </div>
+  
+  <div>
+    <a href="../../index.html"> back to home</a>
+  </div>
+</section>
+
 <div class ="image-gallery">
-  {% for photo in photos %}
+  {% for photo in page.photos %}
     <div class="box">
       <a href="{{ photo.image }}">
         <img src="{{ photo.image }}" alt="{{ photo.title }}"  class="img-gallery" />
