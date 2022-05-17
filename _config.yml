@@ -19,8 +19,6 @@ navigation:
   path: /posts
 - title: experience
   path: /experience
-- title: reel
-  path: /reel
 
 social:
 - title: fourthdown api
