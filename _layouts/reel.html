@@ -8,7 +8,7 @@ layout: default
   </div>
 </section>
 
-<div class ="image-gallery">
+<div class ="image-gallery" style="display: grid">
   {% for photo in page.photos %}
     <div class="box">
       <img src="{{ photo.image }}" alt="{{ photo.title }}"  class="img-gallery" />
