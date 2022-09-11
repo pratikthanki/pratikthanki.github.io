@@ -5,18 +5,28 @@ layout: default
 <section>
   <div>
     <h1>{{ page.title }}</h1>
+    <p>{{ page.description }}</p>
   </div>
 </section>
 
-<div class ="image-gallery">
+<div class="image-gallery">
   {% for photo in page.photos %}
-    <div class="box">
-      <img src="{{ photo.image }}" alt="{{ photo.title }}"  class="img-gallery" />
-      <p style="text-align:left;">
-        {{ photo.location }}
-        <span style="float:right;">{{ photo.date }}</span>
-      </p>
-      <p>{{ photo.caption }}</p>
+  <div class="box">
+    <div>
+      <img
+        src="{{ photo.image }}"
+        alt="{{ photo.title }}"
+        class="img-gallery"
+      />
     </div>
+    <div>
+      <p style="font-style: italic">
+        {{ photo.location }}
+        <span style="float: right">{{ photo.date }}</span>
+        <br />
+        {{ photo.caption }}
+      </p>
+    </div>
+  </div>
   {% endfor %}
 </div>
