@@ -21,9 +21,6 @@ navigation:
   path: /experience
 
 social:
-- title: fourthdown api
-  url: https://fourthdown.azurewebsites.net/
-  icon: fa-solid fa-football
 - title: twitter
   url: https://twitter.com/pratik_thanki
   icon: fa-brands fa-twitter
@@ -33,3 +30,6 @@ social:
 - title: linkedin
   url: https://www.linkedin.com/in/-pratikthanki
   icon: fa-brands fa-linkedin
+- title: fourthdown api
+  url: https://fourthdown.azurewebsites.net/
+  icon: fa-solid fa-football

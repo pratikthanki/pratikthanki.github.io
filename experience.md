@@ -3,7 +3,12 @@
 
 [back to home](./index.md)
 
-##### Barings - Senior Software Engineer (Nov 2021 - Present) | London, England
+##### Wellington Management - Senior Software Engineer (Aug 2022 - Present) | London, England
+
+- Quant Investment Platform
+
+
+##### Barings - Senior Software Engineer (Nov 2021 - Aug 2022) | London, England
 
 - Designing, building, and maintaining a suite of APIs used globally across multiple business 
 functions.
