@@ -5,7 +5,7 @@
 
 ##### [Trayport](https://trayport.com/) - Senior Software Engineer (Oct 2022 - Present) | London, England
 
-- Part of the Joule Direct team managing the aggregation platform and venue connectivity.
+- Part of the team managing venue connectivity, aggregation platform and automated trading.
 
 
 ##### [Wellington Management](https://wellington.com/) - Senior Software Engineer (Aug 2022 - Oct 2022) | London, England
@@ -13,6 +13,8 @@
 - Responsible for scaling the quant research, investment and portfolio management platforms.
 - Defined SLAs and improved observbility which made the platforms more reliable.
 - Leveraging AWS CDK for custom scheduling and backtesting applicaions used across the quant engineering group.
+- Designed tooling for templated creation of new C# projects to improve developer efficiency.
+- Improved processing of end-of-day modelling with distributed caching service deployed on ECS.
 
 
 ##### [Barings](https://barings.com/) - Senior Software Engineer (Nov 2021 - Aug 2022) | London, England
@@ -33,7 +35,6 @@
 - Responsible for tooling to examine data quality, service health and performance benchmarking.
 - Building distributed applications producing and consuming from Kafka topics on Confluent Cloud for real-time 
 Open High Low Close Volume aggregations as part of the calculation engine.
-- Migrated backend storage to Storage Accounts and developed custom sharding strategy for horizontal scaling.
 
 
 ##### [EDGE10 Group](https://edge10group.com/) - Software Engineer (Apr 2016 - Aug 2019) | London, England

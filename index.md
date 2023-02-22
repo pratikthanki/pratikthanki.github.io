@@ -1,10 +1,8 @@
 
 ## Hello! 👋
 
-Thanks for stopping by. My name is Pratik, I'm a software engineer working in investment 
-management working on the quant investment platform. The tech stack is C#/.NET and Python, 
-runs on container-based managed services on AWS. Everything is automated with sound CI/CD 
-pipelines.
+Thanks for stopping by. My name is Pratik and I'm a software engineer working in the world 
+of energy trading.
 
 * * *
 
@@ -14,26 +12,22 @@ I have a varied background in technology, from building and scaling data platfor
 quants and analysts for equity, fixed-income and alternatives research, through to building 
 low-latency distributed systems in the energy trading sector, where the expectation is high 
 availability. I even worked at a sports tech start-up building bespoke applications, working 
-with some of the biggest sports teams and organisations around the world, including: the New 
-York Knicks, Boston Celtics, New England Patriots, Arsenal FC and even the European Space 
-Agency.
+with some of the biggest sports teams and organisations around the world.
 
 I presented a Case Study at the Gartner Data and Analytics Summit London - "What Tim Peake 
 has for Breakfast and other Stories from the Frontier of Human Performance Analytics."
 
-If you found any of what I have already said intriguing, you can read more about about my 
-[experience](./experience).
+If you found any of what I said intriguing, you can read more about about my [experience](./experience).
 
 * * *
 
 ### Interests
 
-I enjoy learning. Outside of work I spend my alot of time exploring new tools, technologies
-and frameworks. I am currently learning - Go and Service Mesh and exploring Apach Samza.
+I enjoy learning. Outside of work I spend alot of time exploring new tools, technologies
+and frameworks. I am currently learning - Go and Service Mesh and exploring Apache Samza.
 
-Other than writing code, I have a passion for travelling. My girlfriend and I are always 
-booking last-minute flights away. I also follow (and love) the NFL and spend my Sunday's 
-watching Red Zone.
+Other than writing code, I have a passion for travel. My girlfriend and I are always booking 
+last-minute flights away. I also follow (and love) the NFL and spend my Sunday's watching Red Zone.
 
 * * *
 
