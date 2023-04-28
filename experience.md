@@ -51,3 +51,13 @@ other Stories from the Frontier of Human Performance."
 - [The efficacy of a movement control exercise programme to reduce injuries in youth rugby: a cluster randomised controlled trial](https://bmjopensem.bmj.com/content/2/1/e000043) 
 - Designed and scaled data collection pipeline to support 30+ schools (~2000 players) written in R.
 - Statistical modelling and analysis in R – packages included MASS, car, zoo & ggplot2.
+
+
+## Education
+
+##### University of Bath
+_Master's degree_, Computer Science (2020 - 2022)
+
+
+##### Loughborough University
+_Bachelor's degree_, Sports Technology (2011 - 2015)

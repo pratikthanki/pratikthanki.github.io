@@ -10,7 +10,7 @@ of energy trading.
 
 I have a varied background in technology, from building and scaling data platforms used by 
 quants and analysts for equity, fixed-income and alternatives research, through to building 
-low-latency distributed systems in the energy trading sector, where the expectation is high 
+low-latency distributed systems in the energy trading sector where the expectation is high 
 availability. I even worked at a sports tech start-up building bespoke applications, working 
 with some of the biggest sports teams and organisations around the world.
 
@@ -23,11 +23,11 @@ If you found any of what I said intriguing, you can read more about about my [ex
 
 ### Interests
 
-I enjoy learning. Outside of work I spend alot of time exploring new tools, technologies
+I enjoy learning. Outside of work I spend a lot of time exploring new tools, technologies
 and frameworks. I am currently learning - Go and Service Mesh and exploring Apache Samza.
 
 Other than writing code, I have a passion for travel. My girlfriend and I are always booking 
-last-minute flights away. I also follow (and love) the NFL and spend my Sunday's watching Red Zone.
+last-minute getaways. I also follow (and love) the NFL and spend my Sunday's watching Red Zone.
 
 * * *
 
@@ -44,5 +44,5 @@ I also wrote a piece on the Grafana Blog on how I leverage Grafana Cloud for my
 ### Get in touch
 
 If you'd like to get in touch, DM me on [twitter](https://twitter.com/pratik_thanki) 
-or drop me a message on [linkedin](https://www.linkedin.com/in/-pratikthanki/) and ofcourse 
+or drop me a message on [linkedin](https://www.linkedin.com/in/-pratikthanki/) and of course 
 checkout my [github](https://github.com/pratikthanki/).
