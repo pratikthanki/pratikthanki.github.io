@@ -5,16 +5,18 @@
 
 ##### [Trayport](https://trayport.com/) - Senior Software Engineer (Oct 2022 - Present) | London, England
 
-- Part of the team managing venue connectivity, aggregation platform and automated trading.
+- Part of the [Joule Direct](https://www.trayport.com/traders/) team responsible for managing venue connectivity, aggregation platform and automated trading.
+- Mentoring junior colleagues through pair programming, code reviews and reviewing design documents (RFCs).
+- Leading projects from design, planning, implementation and roll-out, which includes liaising with product managers and agile coaches.
 
 
 ##### [Wellington Management](https://wellington.com/) - Senior Software Engineer (Aug 2022 - Oct 2022) | London, England
 
 - Responsible for scaling the quant research, investment and portfolio management platforms.
-- Defined SLAs and improved observbility which made the platforms more reliable.
-- Leveraging AWS CDK for custom scheduling and backtesting applicaions used across the quant engineering group.
-- Designed tooling for templated creation of new C# projects to improve developer efficiency.
-- Improved processing of end-of-day modelling with distributed caching service deployed on ECS.
+- Defined SLAs and improved observbility which led to steps to make the platforms more reliable.
+- Leveraging AWS CDK for custom scheduling and backtesting applicaions used across the quant engineering group (globally).
+- Designed tooling for templated creation of new C# projects to improve developer efficiency/experience.
+- Improved processing of end-of-day modelling with distributed caching services deployed on ECS.
 
 
 ##### [Barings](https://barings.com/) - Senior Software Engineer (Nov 2021 - Aug 2022) | London, England
@@ -55,9 +57,6 @@ other Stories from the Frontier of Human Performance."
 
 ## Education
 
-##### University of Bath
-_Master's degree_, Computer Science (2020 - 2022)
+University of Bath | MSc Computer Science (Sept 2022)
 
-
-##### Loughborough University
-_Bachelor's degree_, Sports Technology (2011 - 2015)
+Loughborough University | BSc (Hons) Sports Technology (June 2015)
