@@ -12,24 +12,14 @@ markdown: kramdown
 kramdown:
     math_engine: katex
 
-navigation:
-- title: about
-  path: /
-- title: posts
-  path: /posts
-- title: experience
-  path: /experience
+# navigation:
+# - title: posts
+#   path: /posts
 
 social:
-- title: twitter
-  url: https://twitter.com/pratik_thanki
-  icon: fa-brands fa-twitter
 - title: github
   url: https://github.com/pratikthanki
   icon: fa-brands fa-github
 - title: linkedin
   url: https://www.linkedin.com/in/-pratikthanki
   icon: fa-brands fa-linkedin
-- title: fourthdown api
-  url: https://fourthdown.azurewebsites.net/
-  icon: fa-solid fa-football
